@@ -1,0 +1,44 @@
+Event	ID	Name			Wwise Object Path	Notes
+	189297754	Manosaba_Hiro_Qoute_Voice			\Default Work Unit\Manosaba_Hiro_Qoute_Voice	
+	508659942	Manosaba_Stop_Loading_BGM			\Default Work Unit\Manosaba_Stop_Loading_BGM	
+	820282947	Be_Declared_War_BGM			\Default Work Unit\Be_Declared_War_BGM	
+	1116246757	Manosaba_Hiro_Trial_4_End_Voice			\Default Work Unit\Manosaba_Hiro_Trial_4_End_Voice	
+	1324215369	Manosaba_Unit_Kill_2_Voice			\Default Work Unit\Manosaba_Unit_Kill_2_Voice	
+	1463581984	Manosaba_Hiro_Restart_2_Voice			\Default Work Unit\Manosaba_Hiro_Restart_2_Voice	
+	1486437370	Warden_Introduction_Voice			\Default Work Unit\Warden_Introduction_Voice	
+	1517011492	Manosaba_Hiro_Trial_2_Start_Voice			\Default Work Unit\Manosaba_Hiro_Trial_2_Start_Voice	
+	1528804590	Manosaba_Hiro_Get_Pen_Voice			\Default Work Unit\Manosaba_Hiro_Get_Pen_Voice	
+	1774024820	Manosaba_Hiro_StartGame_Voice			\Default Work Unit\Manosaba_Hiro_StartGame_Voice	
+	1774640939	Manosaba_Hiro_Trial_1_Start_Voice			\Default Work Unit\Manosaba_Hiro_Trial_1_Start_Voice	
+	1799044582	Manosaba_Hiro_Trial_3_End_Voice			\Default Work Unit\Manosaba_Hiro_Trial_3_End_Voice	
+	1910677065	Declare_War_BGM			\Default Work Unit\Declare_War_BGM	
+	1971110619	Manosaba_Hiro_Trial_2_End_Voice			\Default Work Unit\Manosaba_Hiro_Trial_2_End_Voice	
+	2494609908	Manosaba_Hiro_Trial_1_End_Voice			\Default Work Unit\Manosaba_Hiro_Trial_1_End_Voice	
+	2560826495	Manosaba_Loading_BGM			\Default Work Unit\Manosaba_Loading_BGM	
+	3215661215	Manosaba_Hiro_Restart_1_Voice			\Default Work Unit\Manosaba_Hiro_Restart_1_Voice	
+	3380146170	Manosaba_Hiro_Trial_4_Start_Voice			\Default Work Unit\Manosaba_Hiro_Trial_4_Start_Voice	
+	3888035532	Manosaba_Stop_All			\Default Work Unit\Manosaba_Stop_All	
+	3927043513	Manosaba_Hiro_Trial_3_Start_Voice			\Default Work Unit\Manosaba_Hiro_Trial_3_Start_Voice	
+	4265240762	Manosaba_Unit_Kill_Voice			\Default Work Unit\Manosaba_Unit_Kill_Voice	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	133938309	Hiro_Trial_1_start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_1_start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_1_start_Voice		819524
+	184118500	Declered_War_BGM_adjust	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Declered_War_BGM_adjust_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Declered_War_BGM_adjust		2595972
+	188128011	Hiro_Kaiho_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Kaiho_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Kaiho_Voice		1224512
+	280632084	Hiro_Tadashiku_Nai_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Tadashiku_Nai_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Tadashiku_Nai_Voice		332096
+	290814794	Hiro_Modoru_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Modoru_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Modoru_2_Voice		1547840
+	291842464	Hiro_Trial_4_end_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_4_end_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_4_end_Voice		1140024
+	311496353	Hiro_Trail_3_end_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trail_3_end_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trail_3_end_2_Voice		1554232
+	331048141	Hiro_Trail_1_end_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trail_1_end_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trail_1_end_Voice		2920416
+	387927465	Bgm_036_001_Loop_main_page_bgm	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Bgm_036_001_Loop_main_page_bgm_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bgm_036_001_Loop_main_page_bgm		44106560
+	445783535	Hiro_Trial_2_start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_2_start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_2_start_Voice		2337580
+	497343249	Hiro_Aku_Shine_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Aku_Shine_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Aku_Shine_Voice		1062208
+	536234443	Warden_Introduction_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Warden_Introduction_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Warden_Introduction_Voice		2437592
+	551819718	Hiro_Trial_3_start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_3_start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_3_start_Voice		1023288
+	599392929	Be_Declered_War_BGM_adjust2	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Be_Declered_War_BGM_adjust2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Be_Declered_War_BGM_adjust2		3979748
+	658336522	Hiro_Trial_4_start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_4_start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_4_start_Voice		2823232
+	777815009	Hiro_Start_Game_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Start_Game_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Start_Game_Voice		1601304
+	880945138	Hiro_Pen_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Pen_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Pen_Voice		1896768
+	941854266	Hiro_Trial_2_end_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_2_end_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_2_end_Voice		1859580
+	1015463896	Hiro_Modoru_1_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Modoru_1_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Modoru_1_Voice		1739072
+

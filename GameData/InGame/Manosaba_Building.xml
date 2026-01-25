@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Building -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/12/2026 7:12:38 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND" Kind="KIND_BUILDING" />
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND" Name="LOC_BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND_NAME" Description="LOC_BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" TraitType="TRAIT_CIVILIZATION_MANOSABA_PRISON_ISLAND" PurchaseYield="YIELD_GOLD" Cost="30" MaxPlayerInstances="1" AdvisorType="ADVISOR_GENERIC" />
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND" PrereqBuilding="BUILDING_PALACE"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Building_YieldChanges>
+
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND" Texture="MOMENT_BUILDING_MANOSABA_PRISON_ISLAND"/>
+	</MomentIllustrations>
+</GameData>

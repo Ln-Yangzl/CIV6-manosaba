@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Rin\Documents\WwiseProjects\Manosaba\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Rin\Documents\WwiseProjects\Manosaba\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Rin\Documents\WwiseProjects\Manosaba\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1633688277" Language="SFX">
+			<ShortName>Manosaba_Sound</ShortName>
+			<Path>Manosaba_Sound.bnk</Path>
+			<IncludedEvents>
+				<Event Id="820282947" Name="Be_Declared_War_BGM"/>
+				<Event Id="1910677065" Name="Declare_War_BGM"/>
+				<Event Id="1528804590" Name="Manosaba_Hiro_Get_Pen_Voice"/>
+				<Event Id="189297754" Name="Manosaba_Hiro_Qoute_Voice"/>
+				<Event Id="3215661215" Name="Manosaba_Hiro_Restart_1_Voice"/>
+				<Event Id="1463581984" Name="Manosaba_Hiro_Restart_2_Voice"/>
+				<Event Id="1774024820" Name="Manosaba_Hiro_StartGame_Voice"/>
+				<Event Id="2494609908" Name="Manosaba_Hiro_Trial_1_End_Voice"/>
+				<Event Id="1774640939" Name="Manosaba_Hiro_Trial_1_Start_Voice"/>
+				<Event Id="1971110619" Name="Manosaba_Hiro_Trial_2_End_Voice"/>
+				<Event Id="1517011492" Name="Manosaba_Hiro_Trial_2_Start_Voice"/>
+				<Event Id="1799044582" Name="Manosaba_Hiro_Trial_3_End_Voice"/>
+				<Event Id="3927043513" Name="Manosaba_Hiro_Trial_3_Start_Voice"/>
+				<Event Id="1116246757" Name="Manosaba_Hiro_Trial_4_End_Voice"/>
+				<Event Id="3380146170" Name="Manosaba_Hiro_Trial_4_Start_Voice"/>
+				<Event Id="2560826495" Name="Manosaba_Loading_BGM"/>
+				<Event Id="3888035532" Name="Manosaba_Stop_All"/>
+				<Event Id="508659942" Name="Manosaba_Stop_Loading_BGM"/>
+				<Event Id="1324215369" Name="Manosaba_Unit_Kill_2_Voice"/>
+				<Event Id="4265240762" Name="Manosaba_Unit_Kill_Voice"/>
+				<Event Id="1486437370" Name="Warden_Introduction_Voice"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="133938309" Language="SFX">
+					<ShortName>Hiro_Trial_1_start_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Trial_1_start_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="184118500" Language="SFX">
+					<ShortName>Declered_War_BGM_adjust.wav</ShortName>
+					<Path>SFX\Declered_War_BGM_adjust_9E69E797.wem</Path>
+				</File>
+				<File Id="188128011" Language="SFX">
+					<ShortName>Hiro_Kaiho_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Kaiho_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="280632084" Language="SFX">
+					<ShortName>Hiro_Tadashiku_Nai_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Tadashiku_Nai_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="290814794" Language="SFX">
+					<ShortName>Hiro_Modoru_2_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Modoru_2_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="291842464" Language="SFX">
+					<ShortName>Hiro_Trial_4_end_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Trial_4_end_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="311496353" Language="SFX">
+					<ShortName>Hiro_Trail_3_end_2_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Trail_3_end_2_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="331048141" Language="SFX">
+					<ShortName>Hiro_Trail_1_end_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Trail_1_end_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="387927465" Language="SFX">
+					<ShortName>Bgm_036_001_Loop_main_page_bgm.wav</ShortName>
+					<Path>SFX\Bgm_036_001_Loop_main_page_bgm_9E69E797.wem</Path>
+				</File>
+				<File Id="445783535" Language="SFX">
+					<ShortName>Hiro_Trial_2_start_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Trial_2_start_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="497343249" Language="SFX">
+					<ShortName>Hiro_Aku_Shine_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Aku_Shine_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="536234443" Language="SFX">
+					<ShortName>Warden_Introduction_Voice.wav</ShortName>
+					<Path>SFX\Warden_Introduction_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="551819718" Language="SFX">
+					<ShortName>Hiro_Trial_3_start_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Trial_3_start_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="599392929" Language="SFX">
+					<ShortName>Be_Declered_War_BGM_adjust2.wav</ShortName>
+					<Path>SFX\Be_Declered_War_BGM_adjust2_9E69E797.wem</Path>
+				</File>
+				<File Id="658336522" Language="SFX">
+					<ShortName>Hiro_Trial_4_start_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Trial_4_start_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="777815009" Language="SFX">
+					<ShortName>Hiro_Start_Game_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Start_Game_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="880945138" Language="SFX">
+					<ShortName>Hiro_Pen_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Pen_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="941854266" Language="SFX">
+					<ShortName>Hiro_Trial_2_end_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Trial_2_end_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="1015463896" Language="SFX">
+					<ShortName>Hiro_Modoru_1_Voice.wav</ShortName>
+					<Path>SFX\Hiro_Modoru_1_Voice_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

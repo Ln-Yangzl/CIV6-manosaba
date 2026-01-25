@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Audio -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/13/2026 2:22:34 PM -->
+<Context>
+	<CheckBox ID="DemoButton" Anchor="L,C" Size="44,53" ButtonTexture="UnitPanel_ActionButton"	ButtonSize="44,53" CheckTexture="CityPanel_ActionProduction"    CheckTextureOffset="0,32"		CheckSize="32,32" CheckOffset="5,8"	UnCheckTexture="CityPanel_ActionProduction"	  UnCheckSize="32,32" UnCheckOffset="6,9" UseSelectedTextures="1" ToolTip="LOC_HUD_MANOSABA_CITY_CONFIG"/>
+</Context>

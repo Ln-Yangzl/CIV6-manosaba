@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_District -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/16/2026 7:41:08 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_MANOSABA_COURT" Kind="KIND_DISTRICT" />
+	</Types>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_MANOSABA_COURT" ReplacesDistrictType="DISTRICT_HOLY_SITE" />
+	</DistrictReplaces>
+
+	<Districts>
+		<Row>
+			<DistrictType>DISTRICT_MANOSABA_COURT</DistrictType>
+			<Name>LOC_DISTRICT_MANOSABA_COURT_NAME</Name>
+			<Description>LOC_DISTRICT_MANOSABA_COURT_DESCRIPTION</Description>
+			<PrereqTech>TECH_ASTROLOGY</PrereqTech>
+			<PlunderType>PLUNDER_FAITH</PlunderType>
+			<PlunderAmount>25</PlunderAmount>
+			<AdvisorType>ADVISOR_RELIGIOUS</AdvisorType>
+			<Cost>27</Cost>
+			<CostProgressionModel>COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH</CostProgressionModel>
+			<CostProgressionParam1>40</CostProgressionParam1>
+			<Maintenance>1</Maintenance>
+			<RequiresPlacement>true</RequiresPlacement>
+			<RequiresPopulation>true</RequiresPopulation>
+			<AllowsHolyCity>true</AllowsHolyCity>
+			<Aqueduct>false</Aqueduct>
+			<NoAdjacentCity>false</NoAdjacentCity>
+			<InternalOnly>false</InternalOnly>
+			<ZOC>false</ZOC>
+			<CaptureRemovesBuildings>false</CaptureRemovesBuildings>
+			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
+			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
+			<Appeal>1</Appeal>
+			<CityStrengthModifier>2</CityStrengthModifier>
+			<TraitType>TRAIT_CIVILIZATION_MANOSABA_DISTRICT_COURT</TraitType>
+		</Row>
+	</Districts>
+
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_MANOSABA_COURT" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_MANOSABA_COURT" YieldChangeId="NaturalWonder_Faith"/>
+		<Row DistrictType="DISTRICT_MANOSABA_COURT" YieldChangeId="Mountain_Faith1"/>
+		<Row DistrictType="DISTRICT_MANOSABA_COURT" YieldChangeId="Mountain_Faith2"/>
+		<Row DistrictType="DISTRICT_MANOSABA_COURT" YieldChangeId="Mountain_Faith3"/>
+		<Row DistrictType="DISTRICT_MANOSABA_COURT" YieldChangeId="Mountain_Faith4"/>
+		<Row DistrictType="DISTRICT_MANOSABA_COURT" YieldChangeId="Mountain_Faith5"/>
+		<Row DistrictType="DISTRICT_MANOSABA_COURT" YieldChangeId="Forest_Faith"/>
+		<Row DistrictType="DISTRICT_MANOSABA_COURT" YieldChangeId="District_Faith"/>
+	</District_Adjacencies>
+
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_MANOSABA_COURT" Texture="MOMENT_DISTRICT_MANOSABA_COURT"/>
+	</MomentIllustrations>
+
+</GameData>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_InGame -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/12/2026 7:42:47 PM -->
+<GameData>
+
+	<LocalizedText>
+		
+
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_1" Language="zh_Hans_CN">
+			<Text>牢房</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_2" Language="zh_Hans_CN">
+			<Text>大厅</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_3" Language="zh_Hans_CN">
+			<Text>玄关</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_4" Language="zh_Hans_CN">
+			<Text>中庭</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_5" Language="zh_Hans_CN">
+			<Text>会客厅</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_6" Language="zh_Hans_CN">
+			<Text>医务室</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_7" Language="zh_Hans_CN">
+			<Text>淋浴房</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_8" Language="zh_Hans_CN">
+			<Text>接客市</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_9" Language="zh_Hans_CN">
+			<Text>食堂</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_10" Language="zh_Hans_CN">
+			<Text>审判庭</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_11" Language="zh_Hans_CN">
+			<Text>地下通路</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_12" Language="zh_Hans_CN">
+			<Text>焚烧炉</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_13" Language="zh_Hans_CN">
+			<Text>惩罚室</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_14" Language="zh_Hans_CN">
+			<Text>医务室</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_15" Language="zh_Hans_CN">
+			<Text>仓库</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_16" Language="zh_Hans_CN">
+			<Text>招待所</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_17" Language="zh_Hans_CN">
+			<Text>火精之室</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_18" Language="zh_Hans_CN">
+			<Text>地精之室</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_19" Language="zh_Hans_CN">
+			<Text>水精之室</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_20" Language="zh_Hans_CN">
+			<Text>诺亚的画室</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_21" Language="zh_Hans_CN">
+			<Text>娱乐室</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_22" Language="zh_Hans_CN">
+			<Text>图书室</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_23" Language="zh_Hans_CN">
+			<Text>围墙</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_24" Language="zh_Hans_CN">
+			<Text>湖边</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_25" Language="zh_Hans_CN">
+			<Text>花田</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_1" Language="zh_Hans_CN">
+			<Text>二阶堂希罗</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_2" Language="zh_Hans_CN">
+			<Text>樱羽艾玛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_3" Language="zh_Hans_CN">
+			<Text>宝生玛格</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_4" Language="zh_Hans_CN">
+			<Text>黑部奈叶香</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_5" Language="zh_Hans_CN">
+			<Text>典狱长</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_1" Language="zh_Hans_CN">
+			<Text>紫藤亚里沙</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_2" Language="zh_Hans_CN">
+			<Text>冰上梅露露</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_3" Language="zh_Hans_CN">
+			<Text>泽渡可可</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_4" Language="zh_Hans_CN">
+			<Text>橘雪莉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_5" Language="zh_Hans_CN">
+			<Text>远野汉娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_6" Language="zh_Hans_CN">
+			<Text>夏目安安</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_7" Language="zh_Hans_CN">
+			<Text>城崎诺亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_8" Language="zh_Hans_CN">
+			<Text>莲见蕾雅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_9" Language="zh_Hans_CN">
+			<Text>佐伯米莉亚</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREATWORK_MANOSABA_FOUNTAIN_PEN_NAME" Language="zh_Hans_CN">
+			<Text>万年笔</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_CLASS_MANOSABA_GNERATOR_NAME" Language="zh_Hans_CN">
+			<Text>魔女</Text>
+		</Row>
+
+		<Row Tag="LOC_GREATWORKOBJECT_MANOSABA_EVIDENCE_NAME" Language="zh_Hans_CN">
+			<Text>证物</Text>
+		</Row>
+
+		<Row Tag="LOC_GREATWORKOBJECT_MANOSABA_EVIDENCE" Language="zh_Hans_CN">
+			<Text>[ICON_GreatWork_Portrait] 证物</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_PEN_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>万年笔</Text>
+		</Row>
+
+		<Row Tag="LOC_GREATWORK_MANOSABA_RIBBON_NAME" Language="zh_Hans_CN">
+			<Text>沾血的发带</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_RIBBON_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>亚里沙在湖边找到的发带。沾有血迹赫尔状似颜料的痕迹。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_LOCK_NAME" Language="zh_Hans_CN">
+			<Text>坏掉的门锁</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_LOCK_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>挂在惩罚室的门上的锁。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_ALIBI_NAME" Language="zh_Hans_CN">
+			<Text>大家的不在场证明</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_ALIBI_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>安安整理的所有人的不在场证明。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_MERURU_PHONE_NAME" Language="zh_Hans_CN">
+			<Text>梅露露的手机</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_MERURU_PHONE_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>放进希罗衣服里的，不属于希罗的手机。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_MERURU_NAME" Language="zh_Hans_CN">
+			<Text>梅露露的尸体</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_MERURU_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>在诺亚和安安的牢房中发现的尸体。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_PAPER_NAME" Language="zh_Hans_CN">
+			<Text>纸堆</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_PAPER_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>在焚烧炉中发现的，大量的纸。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_KOKO_PHONE_NAME" Language="zh_Hans_CN">
+			<Text>可可的手机</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_KOKO_PHONE_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>可可持有的手机。从手机内容开，无疑是属于可可的。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_KOKO_NAME" Language="zh_Hans_CN">
+			<Text>可可的验尸结果</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_KOKO_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>蕾雅作出的验尸结果。死因为额头中弹所致。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_NOA_ATELIER_NAME" Language="zh_Hans_CN">
+			<Text>诺亚的画室</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_NOA_ATELIER_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>内部极为杂乱，放置着画笔和画布。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_ANAN_NAME" Language="zh_Hans_CN">
+			<Text>安安的验尸结果</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_ANAN_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>蕾雅在中庭发现了尸体。背部受铁栅栏贯穿，当场死亡。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_ANAN_PHONE_NAME" Language="zh_Hans_CN">
+			<Text>安安的手机</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_ANAN_PHONE_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>属于被害人的物品。垫在了尸体下面。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_REIA_NAME" Language="zh_Hans_CN">
+			<Text>蕾雅的尸体照片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_REIA_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>莲见蕾雅的尸体。推测死亡时间在一小时以内。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_EMA_NAME" Language="zh_Hans_CN">
+			<Text>艾玛的尸体照片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_EMA_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>樱羽艾玛的尸体。推测死亡时间在一小时以内。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MANOSABA_DRESS_NAME" Language="zh_Hans_CN">
+			<Text>礼服</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANOSABA_DRESS_GENERATOR_NAME" Language="zh_Hans_CN">
+			<Text>艾玛所传的礼服。</Text>
+		</Row>
+
+	
+		<Row Tag="LOC_BUILDING_MANOSABA_SCAFFOLD_NAME" Language="zh_Hans_CN">
+			<Text>处刑台</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_BUILDING_COLD_ROOM_NAME" Language="zh_Hans_CN">
+			<Text>冷藏室</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_MANOSABA_TRIAL_REASONING_NAME" Language="zh_Hans_CN">
+			<Text>反驳</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MANOSABA_TRIAL_AGREE_NAME" Language="zh_Hans_CN">
+			<Text>赞同</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_NAME" Language="zh_Hans_CN">
+			<Text>提交证据</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MANOSABA_TRIAL_PERJURY_NAME" Language="zh_Hans_CN">
+			<Text>伪证</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MANOSABA_TRIAL_REASONING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特殊项目「反驳」，完成后获得少量随机分数。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MANOSABA_TRIAL_AGREE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特殊项目「赞同」，当前最高分数者（自己除外）部分分数。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特殊项目「提交证据」，项目完成时会提交符合该事件的证据，获得大量分数。若无符合要求的证据，则不会获得分数。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MANOSABA_TRIAL_PERJURY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特殊项目「伪证」，获得较多分数。</Text>
+		</Row>
+		
+
+		<Row Tag="LOC_MANOSABA_COMPETITION_NAME" Language="zh_Hans_CN">
+			<Text>魔女审判</Text>
+		</Row>
+		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_1_SUMMARY" Language="zh_Hans_CN">
+			<Text>城崎诺亚的尸体被发现了，进行推理找出凶手吧。</Text>
+		</Row>
+		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_6_SUMMARY" Language="zh_Hans_CN">
+			<Text>冰上梅露露的尸体被发现了，进行推理找出凶手吧。</Text>
+		</Row>
+		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_7_SUMMARY" Language="zh_Hans_CN">
+			<Text>泽渡可可的尸体被发现了，进行推理找出凶手吧。</Text>
+		</Row>
+		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_8_SUMMARY" Language="zh_Hans_CN">
+			<Text>夏目安安的尸体被发现了，进行推理找出凶手吧。</Text>
+		</Row>
+		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_9_SUMMARY" Language="zh_Hans_CN">
+			<Text>樱羽艾玛和莲见蕾雅的尸体被发现了，进行推理找出凶手吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_MANOSABA_COMPETITION_1_FIRST_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得一个开拓者，一个建造者。</Text>
+		</Row>
+		<Row Tag="LOC_MANOSABA_COMPETITION_2_FIRST_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>3个随机 [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞。</Text>
+		</Row>
+		<Row Tag="LOC_MANOSABA_COMPETITION_3_FIRST_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>立即完成所有城市当前建造建筑（奇观除外）。</Text>
+		</Row>
+		<Row Tag="LOC_MANOSABA_COMPETITION_4_FIRST_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>3个随机科技和市政。</Text>
+		</Row>
+
+		<Row Tag="LOC_EMERGENCY_SCORE_MANOSABA_COMPETITION_TRIAL_REASONING_DESC" Language="zh_Hans_CN">
+			<Text>进行特殊项目「反驳」，获得少量随机分数。</Text>
+		</Row>
+		<Row Tag="LOC_EMERGENCY_SCORE_MANOSABA_COMPETITION_TRIAL_PERJURY_DESC" Language="zh_Hans_CN">
+			<Text>希罗可进行特殊项目「伪证」，获得较多分数。</Text>
+		</Row>
+		<Row Tag="LOC_EMERGENCY_SCORE_MANOSABA_COMPETITION_TRIAL_AGREE_DESC" Language="zh_Hans_CN">
+			<Text>进行特殊项目「赞同」，当前最高分数者（自己除外）部分分数。</Text>
+		</Row>
+		<Row Tag="LOC_EMERGENCY_SCORE_MANOSABA_COMPETITION_TRIAL_SUBMIT_EVIDENCE_DESC" Language="zh_Hans_CN">
+			<Text>进行特殊项目「提交证据」，项目完成时若有符合该事件的证据，则获得大量分数。</Text>
+		</Row>
+		<Row Tag="LOC_EMERGENCY_SCORE_MANOSABA_COMPETITION_1_DESC_1" Language="zh_Hans_CN">
+			<Text>「提交证据」项目完成时若无符合要求的证据，则不会获得分数。</Text>
+		</Row>
+
+		<Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_PROJECT_MANOSABA_TRIAL_REASONING" Language="zh_Hans_CN">
+			<Text>城市可进行特殊项目「反驳」。</Text>
+		</Row>
+		<Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_PROJECT_MANOSABA_TRIAL_PERJURY" Language="zh_Hans_CN">
+			<Text>希罗的城市可进行特殊项目「伪证」。</Text>
+		</Row>
+		<Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_PROJECT_MANOSABA_TRIAL_AGREE" Language="zh_Hans_CN">
+			<Text>城市可进行特殊项目「赞同」。</Text>
+		</Row>
+		<Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE" Language="zh_Hans_CN">
+			<Text>城市可进行特殊项目「提交证据」。</Text>
+		</Row>
+
+		
+	</LocalizedText>
+
+</GameData>

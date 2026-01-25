@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Unit -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/17/2026 10:33:09 AM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_MANOSABA_GENERATOR" Kind="KIND_UNIT"/>
+		<Row Type="FORMATION_CLASS_MANOSABA_GENERATOR" Kind="KIND_FORMATION_CLASS"/>
+	</Types>
+
+	<Tags>
+		<Row Tag="CLASS_MANOSABA_GENERATOR" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<UnitFormationClasses>
+		<Row FormationClassType="FORMATION_CLASS_MANOSABA_GENERATOR" Name="LOC_FORMATION_CLASS_MANOSABA_GENERATOR_NAME"/>
+	</UnitFormationClasses>
+
+	<TypeTags>
+		<Row Type="UNIT_MANOSABA_GENERATOR" Tag="CLASS_MANOSABA_GENERATOR"/>
+		<Row Type="UNIT_MANOSABA_GENERATOR" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_MANOSABA_GENERATOR" Tag="CLASS_ALL_ERAS"/>
+	</TypeTags>
+
+	<Units>
+		<Row>
+			<UnitType>UNIT_MANOSABA_GENERATOR</UnitType>
+			<Name>LOC_UNIT_MANOSABA_GENERATOR_NAME</Name>
+			<Description>LOC_UNIT_MANOSABA_GENERATOR_DESCRIPTION</Description>
+			<Cost>1</Cost>
+			<BaseMoves>2</BaseMoves>
+			<BaseSightRange>2</BaseSightRange>
+			<Domain>DOMAIN_LAND</Domain>
+			<CanCapture>0</CanCapture>
+			<CanRetreatWhenCaptured>0</CanRetreatWhenCaptured>
+			<CanTrain>0</CanTrain>
+			<CanEarnExperience>0</CanEarnExperience>
+			<FoundReligion>0</FoundReligion>
+			<Stackable>1</Stackable>
+			<FormationClass>FORMATION_CLASS_MANOSABA_GENERATOR</FormationClass>
+			<PromotionClass>NULL</PromotionClass>
+			<TraitType>NULL</TraitType>
+		</Row>
+	</Units>
+</GameData>

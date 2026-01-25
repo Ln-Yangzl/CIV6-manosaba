@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Nikaido_Hiro -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/12/2026 8:04:04 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_MANOSABA_NIKAIDO_HIRO_QOUTE" Language="zh_Hans_CN">
+			<Text>正しくない。</Text>
+		</Row>
+
+		<Row Tag="LOC_ERA_MANOSABA_NIKAIDO_HIRO_TEXT" Language="zh_Hans_CN">
+			<Text>
+				[NEWLINE]「私はあなたが大嫌い。
+				[NEWLINE]        あなたは、存在そのものが間違っている」
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANOSABA_NIKAIDO_HIRO" Language="zh_Hans_CN">
+			<Text>
+				[NEWLINE]希罗成绩优秀、运动万能、出身良好，几乎无可挑剔。
+				在少女们之中也享有很高的信任度，在学校里历任要职。
+				她怀着强烈的责任感与自尊心生活着。
+				她的价值判断标准始终只有一个——「正确」或「不正确」。
+				由于过分追求「正确」，往往容易走向偏激的思想。
+				她渴望一个没有恶人的、纯净美好的世界。
+				同时也拥有细腻的一面，对能够毫无顾忌相处的朋友，会抱有特别深厚的感情。
+			</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_LEADER_MANOSABA_NIKAIDO_HIRO_QOUTE" Language="ja_JP">
+			<Text>正しくない。</Text>
+		</Row>
+
+		<Row Tag="LOC_ERA_MANOSABA_NIKAIDO_HIRO_TEXT" Language="ja_JP">
+			<Text>
+				[NEWLINE]「私はあなたが大嫌い。
+				[NEWLINE]        あなたは、存在そのものが間違っている」
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANOSABA_NIKAIDO_HIRO" Language="ja_JP">
+			<Text>
+				[NEWLINE]成績優秀・スポーツ万能・家柄も良く、非の打ちどころがない。
+				少女周囲の信頼も厚く、学校でも重要なポストを歴任。
+				強い責任感と誇りをもって生きている。
+				そんな彼女の価値基準は、常に「正しい」か「正しくない」か。
+				「正しさ」を追い求めるあまり、かたよった思想に走りがち。
+				恶人的いない、きれいな世界を求めている。
+				繊細な面も持ち合わせており、気の置けない友達には、特別な情を抱く。
+			</Text>
+		</Row>
+		
+		
+		
+	</LocalizedText>
+</GameData>

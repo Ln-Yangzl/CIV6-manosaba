@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="ManosabaEvidenceUITexture"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_LOCK_256"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_LOCK_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_LOCK_45"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_LOCK_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_LOCK_64"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_LOCK_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_RIBBON_256"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_RIBBON_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_RIBBON_45"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_RIBBON_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_RIBBON_64"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_RIBBON_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_LOCK"/>
+			<m_ObjectName text="MANOSABA_LOCK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_RIBBON"/>
+			<m_ObjectName text="MANOSABA_RIBBON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_ALIBI_256"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_ALIBI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_ALIBI_45"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_ALIBI_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_ALIBI_64"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_ALIBI_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_256"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_45"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_64"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_MERURU_256"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_MERURU_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_MERURU_45"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_MERURU_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_MERURU_64"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_MERURU_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_MERURU_PHONE_256"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_MERURU_PHONE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_MERURU_PHONE_45"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_MERURU_PHONE_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_MERURU_PHONE_64"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_MERURU_PHONE_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_PAPER_256"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_PAPER_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_PAPER_45"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_PAPER_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_PAPER_64"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_PAPER_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_ANAN_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ANAN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_ANAN_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ANAN_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_ANAN_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ANAN_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_ANAN_PHONE_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ANAN_PHONE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_ANAN_PHONE_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ANAN_PHONE_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_ANAN_PHONE_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ANAN_PHONE_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DRESS_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DRESS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DRESS_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DRESS_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DRESS_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DRESS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_EMA_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_EMA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_EMA_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_EMA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_EMA_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_EMA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_KOKO_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_KOKO_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_KOKO_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_KOKO_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_KOKO_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_KOKO_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_NOA_ATELIER_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_NOA_ATELIER_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_NOA_ATELIER_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_NOA_ATELIER_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_NOA_ATELIER_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_NOA_ATELIER_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_REIA_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_REIA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_REIA_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_REIA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_REIA_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_REIA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_ALIBI"/>
+			<m_ObjectName text="MANOSABA_ALIBI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_ANAN"/>
+			<m_ObjectName text="MANOSABA_ANAN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_ANAN_PHONE"/>
+			<m_ObjectName text="MANOSABA_ANAN_PHONE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_DRESS"/>
+			<m_ObjectName text="MANOSABA_DRESS"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_EMA"/>
+			<m_ObjectName text="MANOSABA_EMA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_KOKO"/>
+			<m_ObjectName text="MANOSABA_KOKO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_KOKO_PHONE"/>
+			<m_ObjectName text="MANOSABA_KOKO_PHONE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_MERURU"/>
+			<m_ObjectName text="MANOSABA_MERURU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_MERURU_PHONE"/>
+			<m_ObjectName text="MANOSABA_MERURU_PHONE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_NOA_ATELIER"/>
+			<m_ObjectName text="MANOSABA_NOA_ATELIER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_PAPER"/>
+			<m_ObjectName text="MANOSABA_PAPER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_REIA"/>
+			<m_ObjectName text="MANOSABA_REIA"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

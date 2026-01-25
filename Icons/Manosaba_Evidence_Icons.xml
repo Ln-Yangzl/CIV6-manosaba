@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Evidence_Icons -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/18/2026 4:21:08 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_RESOURCE_TRAIL1_RIBBON" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_GREATWORK_EVIDENCE_RIBBON_256.dds"/>
+		<Row Name="ATLAS_RESOURCE_TRAIL1_RIBBON" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_GREATWORK_EVIDENCE_RIBBON_64.dds"/>
+		<Row Name="ATLAS_RESOURCE_TRAIL1_RIBBON" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_GREATWORK_EVIDENCE_RIBBON_45.dds"/>
+
+		<Row Name="ATLAS_RESOURCE_TRAIL2_LOCK" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_GREATWORK_EVIDENCE_LOCK_256.dds"/>
+		<Row Name="ATLAS_RESOURCE_TRAIL2_LOCK" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_GREATWORK_EVIDENCE_LOCK_64.dds"/>
+		<Row Name="ATLAS_RESOURCE_TRAIL2_LOCK" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_GREATWORK_EVIDENCE_LOCK_45.dds"/>
+
+		<Row Name="ATLAS_trail6_alibi" IconSize="45" Filename="ICON_GREATWORK_EVIDENCE_ALIBI_45"/>
+		<Row Name="ATLAS_trail6_alibi" IconSize="64" Filename="ICON_GREATWORK_EVIDENCE_ALIBI_64"/>
+		<Row Name="ATLAS_trail6_alibi" IconSize="256" Filename="ICON_GREATWORK_EVIDENCE_ALIBI_256"/>
+
+		<Row Name="ATLAS_trial6_phone_meruru" IconSize="45" Filename="ICON_GREATWORK_EVIDENCE_MERURU_PHONE_45"/>
+		<Row Name="ATLAS_trial6_phone_meruru" IconSize="64" Filename="ICON_GREATWORK_EVIDENCE_MERURU_PHONE_64"/>
+		<Row Name="ATLAS_trial6_phone_meruru" IconSize="256" Filename="ICON_GREATWORK_EVIDENCE_MERURU_PHONE_256"/>
+
+		<Row Name="ATLAS_trial6_meruru" IconSize="45" Filename="ICON_GREATWORK_EVIDENCE_MERURU_45"/>
+		<Row Name="ATLAS_trial6_meruru" IconSize="64" Filename="ICON_GREATWORK_EVIDENCE_MERURU_64"/>
+		<Row Name="ATLAS_trial6_meruru" IconSize="256" Filename="ICON_GREATWORK_EVIDENCE_MERURU_256"/>
+
+		<Row Name="ATLAS_trail7_paper" IconSize="45" Filename="ICON_GREATWORK_EVIDENCE_PAPER_45"/>
+		<Row Name="ATLAS_trail7_paper" IconSize="64" Filename="ICON_GREATWORK_EVIDENCE_PAPER_64"/>
+		<Row Name="ATLAS_trail7_paper" IconSize="256" Filename="ICON_GREATWORK_EVIDENCE_PAPER_256"/>
+
+		<Row Name="ATLAS_trail7_koko_phone" IconSize="45" Filename="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_45"/>
+		<Row Name="ATLAS_trail7_koko_phone" IconSize="64" Filename="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_64"/>
+		<Row Name="ATLAS_trail7_koko_phone" IconSize="256" Filename="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_256"/>
+
+		<Row Name="ATLAS_trail7_koko" IconSize="45" Filename="ICON_GREATWORK_MANOSABA_KOKO_45"/>
+		<Row Name="ATLAS_trail7_koko" IconSize="64" Filename="ICON_GREATWORK_MANOSABA_KOKO_64"/>
+		<Row Name="ATLAS_trail7_koko" IconSize="256" Filename="ICON_GREATWORK_MANOSABA_KOKO_256"/>
+
+		<Row Name="ATLAS_trail8_noa_atelier" IconSize="45" Filename="ICON_GREATWORK_MANOSABA_NOA_ATELIER_45"/>
+		<Row Name="ATLAS_trail8_noa_atelier" IconSize="64" Filename="ICON_GREATWORK_MANOSABA_NOA_ATELIER_64"/>
+		<Row Name="ATLAS_trail8_noa_atelier" IconSize="256" Filename="ICON_GREATWORK_MANOSABA_NOA_ATELIER_256"/>
+
+		<Row Name="ATLAS_trail8_anan" IconSize="45" Filename="ICON_GREATWORK_MANOSABA_ANAN_45"/>
+		<Row Name="ATLAS_trail8_anan" IconSize="64" Filename="ICON_GREATWORK_MANOSABA_ANAN_64"/>
+		<Row Name="ATLAS_trail8_anan" IconSize="256" Filename="ICON_GREATWORK_MANOSABA_ANAN_256"/>
+
+		<Row Name="ATLAS_trail8_anan_phone" IconSize="45" Filename="ICON_GREATWORK_MANOSABA_ANAN_PHONE_45"/>
+		<Row Name="ATLAS_trail8_anan_phone" IconSize="64" Filename="ICON_GREATWORK_MANOSABA_ANAN_PHONE_64"/>
+		<Row Name="ATLAS_trail8_anan_phone" IconSize="256" Filename="ICON_GREATWORK_MANOSABA_ANAN_PHONE_256"/>
+
+		<Row Name="ATLAS_trail9_reia" IconSize="45" Filename="ICON_GREATWORK_MANOSABA_REIA_45"/>
+		<Row Name="ATLAS_trail9_reia" IconSize="64" Filename="ICON_GREATWORK_MANOSABA_REIA_64"/>
+		<Row Name="ATLAS_trail9_reia" IconSize="256" Filename="ICON_GREATWORK_MANOSABA_REIA_256"/>
+
+		<Row Name="ATLAS_trail9_ema" IconSize="45" Filename="ICON_GREATWORK_MANOSABA_EMA_45"/>
+		<Row Name="ATLAS_trail9_ema" IconSize="64" Filename="ICON_GREATWORK_MANOSABA_EMA_64"/>
+		<Row Name="ATLAS_trail9_ema" IconSize="256" Filename="ICON_GREATWORK_MANOSABA_EMA_256"/>
+
+		<Row Name="ATLAS_trail9_dress" IconSize="45" Filename="ICON_GREATWORK_MANOSABA_DRESS_45"/>
+		<Row Name="ATLAS_trail9_dress" IconSize="64" Filename="ICON_GREATWORK_MANOSABA_DRESS_64"/>
+		<Row Name="ATLAS_trail9_dress" IconSize="256" Filename="ICON_GREATWORK_MANOSABA_DRESS_256"/>
+		
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_GREATWORK_MANOSABA_RIBBON" Atlas="ATLAS_RESOURCE_TRAIL1_RIBBON" index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_LOCK" Atlas="ATLAS_RESOURCE_TRAIL2_LOCK" index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_ALIBI" Atlas="ATLAS_trail6_alibi" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_MERURU_PHONE" Atlas="ATLAS_trial6_phone_meruru" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_MERURU" Atlas="ATLAS_trial6_meruru" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_PAPER" Atlas="ATLAS_trail7_paper" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_KOKO_PHONE" Atlas="ATLAS_trail7_koko_phone" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_KOKO" Atlas="ATLAS_trail7_koko" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_NOA_ATELIER" Atlas="ATLAS_trail8_noa_atelier" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_ANAN" Atlas="ATLAS_trail8_anan" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_ANAN_PHONE" Atlas="ATLAS_trail8_anan_phone" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_REIA" Atlas="ATLAS_trail9_reia" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_EMA" Atlas="ATLAS_trail9_ema" Index="0"/>
+		<Row Name="ICON_GREATWORK_MANOSABA_DRESS" Atlas="ATLAS_trail9_dress" Index="0"/>
+	</IconDefinitions>
+</GameData>

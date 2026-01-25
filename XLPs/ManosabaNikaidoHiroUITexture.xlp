@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="ManosabaNikaidoHiroUITexture"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="MOMENT_BUILDING_MANOSABA_PRISON_ISLAND"/>
+			<m_ObjectName text="MOMENT_BUILDING_MANOSABA_PRISON_ISLAND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_FOUNTAIN_PEN_128"/>
+			<m_ObjectName text="ICON_MANOSABA_FOUNTAIN_PEN_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_FOUNTAIN_PEN_256"/>
+			<m_ObjectName text="ICON_MANOSABA_FOUNTAIN_PEN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_FOUNTAIN_PEN_32"/>
+			<m_ObjectName text="ICON_MANOSABA_FOUNTAIN_PEN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_FOUNTAIN_PEN_38"/>
+			<m_ObjectName text="ICON_MANOSABA_FOUNTAIN_PEN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_FOUNTAIN_PEN_50"/>
+			<m_ObjectName text="ICON_MANOSABA_FOUNTAIN_PEN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_FOUNTAIN_PEN_80"/>
+			<m_ObjectName text="ICON_MANOSABA_FOUNTAIN_PEN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_NIKAIDO_HIRO_256"/>
+			<m_ObjectName text="ICON_MANOSABA_NIKAIDO_HIRO_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_NIKAIDO_HIRO_32"/>
+			<m_ObjectName text="ICON_MANOSABA_NIKAIDO_HIRO_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_NIKAIDO_HIRO_45"/>
+			<m_ObjectName text="ICON_MANOSABA_NIKAIDO_HIRO_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_NIKAIDO_HIRO_48"/>
+			<m_ObjectName text="ICON_MANOSABA_NIKAIDO_HIRO_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_NIKAIDO_HIRO_50"/>
+			<m_ObjectName text="ICON_MANOSABA_NIKAIDO_HIRO_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_NIKAIDO_HIRO_55"/>
+			<m_ObjectName text="ICON_MANOSABA_NIKAIDO_HIRO_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_NIKAIDO_HIRO_64"/>
+			<m_ObjectName text="ICON_MANOSABA_NIKAIDO_HIRO_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_NIKAIDO_HIRO_80"/>
+			<m_ObjectName text="ICON_MANOSABA_NIKAIDO_HIRO_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANOSABA_NIKAIDO_HIRO_BACKGROUND"/>
+			<m_ObjectName text="LEADER_MANOSABA_NIKAIDO_HIRO_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANOSABA_NIKAIDO_HIRO_BACKGROUND_LOAD"/>
+			<m_ObjectName text="LEADER_MANOSABA_NIKAIDO_HIRO_BACKGROUND_LOAD"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANOSABA_NIKAIDO_HIRO_INGAME"/>
+			<m_ObjectName text="LEADER_MANOSABA_NIKAIDO_HIRO_INGAME"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANOSABA_NIKAIDO_HIRO_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MANOSABA_NIKAIDO_HIRO_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANOSABA_NIKAIDO_HIRO_PORTRAIT"/>
+			<m_ObjectName text="LEADER_MANOSABA_NIKAIDO_HIRO_PORTRAIT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_DISTRICT_MANOSABA_COURT"/>
+			<m_ObjectName text="MOMENT_DISTRICT_MANOSABA_COURT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TEMPLE_128"/>
+			<m_ObjectName text="ICON_BUILDING_TEMPLE_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TEMPLE_256"/>
+			<m_ObjectName text="ICON_BUILDING_TEMPLE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TEMPLE_32"/>
+			<m_ObjectName text="ICON_BUILDING_TEMPLE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TEMPLE_38"/>
+			<m_ObjectName text="ICON_BUILDING_TEMPLE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TEMPLE_50"/>
+			<m_ObjectName text="ICON_BUILDING_TEMPLE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TEMPLE_80"/>
+			<m_ObjectName text="ICON_BUILDING_TEMPLE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_SHRINE_128"/>
+			<m_ObjectName text="ICON_BUILDING_SHRINE_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_SHRINE_256"/>
+			<m_ObjectName text="ICON_BUILDING_SHRINE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_SHRINE_32"/>
+			<m_ObjectName text="ICON_BUILDING_SHRINE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_SHRINE_38"/>
+			<m_ObjectName text="ICON_BUILDING_SHRINE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_SHRINE_50"/>
+			<m_ObjectName text="ICON_BUILDING_SHRINE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_SHRINE_80"/>
+			<m_ObjectName text="ICON_BUILDING_SHRINE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISCTICT_MANOSABA_COURT_128"/>
+			<m_ObjectName text="ICON_DISCTICT_MANOSABA_COURT_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISCTICT_MANOSABA_COURT_256"/>
+			<m_ObjectName text="ICON_DISCTICT_MANOSABA_COURT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISCTICT_MANOSABA_COURT_32"/>
+			<m_ObjectName text="ICON_DISCTICT_MANOSABA_COURT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISCTICT_MANOSABA_COURT_38"/>
+			<m_ObjectName text="ICON_DISCTICT_MANOSABA_COURT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISCTICT_MANOSABA_COURT_50"/>
+			<m_ObjectName text="ICON_DISCTICT_MANOSABA_COURT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISCTICT_MANOSABA_COURT_80"/>
+			<m_ObjectName text="ICON_DISCTICT_MANOSABA_COURT_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_RELIC_MANOSABA_FOUNTAIN_PEN_256"/>
+			<m_ObjectName text="ICON_GREATWORK_RELIC_MANOSABA_FOUNTAIN_PEN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_RELIC_MANOSABA_FOUNTAIN_PEN_45"/>
+			<m_ObjectName text="ICON_GREATWORK_RELIC_MANOSABA_FOUNTAIN_PEN_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_RELIC_MANOSABA_FOUNTAIN_PEN_64"/>
+			<m_ObjectName text="ICON_GREATWORK_RELIC_MANOSABA_FOUNTAIN_PEN_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_FOUNTAIN_PEN"/>
+			<m_ObjectName text="MANOSABA_FOUNTAIN_PEN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_256"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_30"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_32"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_38"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_50"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_70"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_80"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_AGREE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_256"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_30"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_32"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_38"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_50"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_70"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_80"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_PERJURY_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_256"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_30"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_32"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_38"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_50"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_70"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_80"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_REASONING_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_256"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_30"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_32"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_38"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_50"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_70"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_80"/>
+			<m_ObjectName text="ICON_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_PRISON_ISLAND_128"/>
+			<m_ObjectName text="ICON_MANOSABA_PRISON_ISLAND_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_PRISON_ISLAND_256"/>
+			<m_ObjectName text="ICON_MANOSABA_PRISON_ISLAND_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_PRISON_ISLAND_32"/>
+			<m_ObjectName text="ICON_MANOSABA_PRISON_ISLAND_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_PRISON_ISLAND_38"/>
+			<m_ObjectName text="ICON_MANOSABA_PRISON_ISLAND_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_PRISON_ISLAND_50"/>
+			<m_ObjectName text="ICON_MANOSABA_PRISON_ISLAND_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_PRISON_ISLAND_80"/>
+			<m_ObjectName text="ICON_MANOSABA_PRISON_ISLAND_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

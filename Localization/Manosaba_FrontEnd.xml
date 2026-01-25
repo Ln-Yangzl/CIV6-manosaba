@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_FrontEnd -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/12/2026 7:42:34 PM -->
+<GameData>
+	<LocalizedText>
+
+		<!-- 文明名称 来自Config-->
+		<Row Tag="LOC_CIVILIZATION_MANOSABA_NAME" Language="zh_Hans_CN">
+			<Text>监狱岛</Text>
+		</Row>
+
+		<!-- 文明描述 来自Config-->
+		<Row Tag="LOC_CIVILIZATION_MANOSABA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>监狱岛</Text>
+		</Row>
+
+		<!-- 文明技能名称 监狱岛名称来自Config-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MANOSABA_PRISON_ISLAND_NAME" Language="zh_Hans_CN">
+			<Text>被囚禁的少女</Text>
+		</Row>
+
+		<!-- 文明特殊建筑 -->
+		<Row Tag="LOC_BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND_NAME" Language="zh_Hans_CN">
+			<Text>牢屋敷</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>监狱岛的特色建筑，只能建立在首都的市中心，提供+3[ICON_Culture]文化、+1[ICON_Food]食物。建成时获得一个侦查单位。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_MANOSABA_COURT_NAME" Language="zh_Hans_CN">
+			<Text>审判庭</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_MANOSABA_COURT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>监狱岛的特色区域，取代圣地，建造费用更低，额外提供+3[ICON_Culture]文化。替换神社为「处刑台」，替换寺庙为「冷冻室」。</Text>
+		</Row>
+
+
+		<!-- 文明技能描述述 来自Config-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MANOSABA_PRISON_ISLAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会定期举行特殊事件「魔女审判」，在事件中获胜可获得奖励。触发[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞时，有概率获得「证物」。</Text>
+		</Row>
+
+
+		<!-- 领袖名称 来自Config-->
+		<Row Tag="LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME" Language="zh_Hans_CN">
+			<Text>二阶堂希罗</Text>
+		</Row>
+
+		<!-- 领袖技能说明 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_PERJURY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建立首都时获得证物「万年笔」，提供+4[ICON_Faith]信仰，+2[ICON_Tourism]旅游业绩。可在魔女审判中使用特殊项目「伪证」，获得较多分数。</Text>
+		</Row>
+
+		<!-- 领袖技能名称 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_PERJURY_NAME" Language="zh_Hans_CN">
+			<Text>追求正确的少女</Text>
+		</Row>
+		
+	</LocalizedText>
+</GameData>
