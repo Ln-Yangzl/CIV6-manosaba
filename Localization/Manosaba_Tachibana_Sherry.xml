@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Tachibana_Sherry -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/25/2026 7:50:59 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_QOUTE" Language="zh_Hans_CN">
+			<Text>嗨嗨~！我叫橘雪莉。哪里有案件哪里就有我！一切就交给我这位名侦探吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_ERA_MANOSABA_TACHIBANA_SHERRY_TEXT" Language="zh_Hans_CN">
+			<Text>
+				[NEWLINE]「密室殺人！ミステリーじゃないですか〜！高まりますね〜！」
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANOSABA_TACHIBANA_SHERRY" Language="zh_Hans_CN">
+			<Text>
+				[NEWLINE]无论在任何情况下都始终开朗微笑，以礼貌语气说话的少女。
+				性格温和、举止从容，因此在学校里被称为“妖精小姐”（贬义）。
+				自称名侦探，对推理与悬疑题材抱有强烈兴趣。
+				曾揭发并惩治过校园霸凌者，成功解救同级生，并由此坚信侦探是自己的天职。
+				其好奇心之强足以令周围人感到震惊，一旦产生兴趣，便不顾旁人目光、毫不犹豫地投入其中，直到满足为止。
+				同时也存在着几乎不顾场合氛围行事的一面。
+			</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_QOUTE" Language="ja_JP">
+			<Text>正しくない。</Text>
+		</Row>
+
+		<Row Tag="LOC_ERA_MANOSABA_TACHIBANA_SHERRY_TEXT" Language="ja_JP">
+			<Text>
+				[NEWLINE]「私はあなたが大嫌い。
+				[NEWLINE]        あなたは、存在そのものが間違っている」
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANOSABA_TACHIBANA_SHERRY" Language="ja_JP">
+			<Text>
+				[NEWLINE]どんな時も元気にニコニコ、ですます口調で話す少女。 
+				おっとりした雰囲気で、学校でつけられたあだ名は 『妖精さん』 (蔑称) 自称名探偵で、ミステリーや推理が大好き。
+				いじめっ子をつるし上げて同級生を救ったことがあり。 探偵が自分の天職だと思っている。 
+				周囲をおどろかせるほど好奇心が強く、 気になったことには、人目を気にせず迷わずとびつき、離れない。 
+				ほとんど場の空気を読まない一面がある。
+			</Text>
+		</Row>
+
+
+
+	</LocalizedText>
+</GameData>

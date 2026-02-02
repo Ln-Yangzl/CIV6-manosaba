@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Witch_Config_UI -->
+<!-- Author: Rin -->
+<!-- DateCreated: 2/1/2026 9:32:18 AM -->
+<Context>
+	<Container ID="ManosabaWitchConfigOptions"  Anchor="R,T" Size="100,100" Offset="10,85" ConsumeMouse="1">
+		<Button ID="ManosabaWitchConfigButton" Anchor="C,C" Size="parent,parent" Offset="0,0" ToolTip="LOC_WITCH_MANAGER_BUTTON_TOOLTIP">
+			<Image Anchor="C,C" Size="parent,parent" Texture="IMG_MANOSABA_CONFIG_BUTTON"/>
+		</Button>
+	</Container>
+
+	<Container ID="ManosabaWitchConfigModal"  Anchor="R,B" Size="1550,1080" Offset="0,0" ConsumeMouse="1" Hidden="1">
+		<Image ID="ManosabaConfigModalLeaderImage" Anchor="R,B" Size="700,1080" Texture="IMG_MANOSABA_HIRO_CONFIG"/>
+		<Container Offset="0,0">
+			<Button ID="ManosabaWitchConfigOption1" Anchor="L,T" Size="800,250" Offset="0,100">
+				<Image Anchor="C,C" Size="parent,parent" Texture="IMG_MANOSABA_TEXT_BOX"/>
+				<Label ID="ManosabaWitchConfigOption1Text" String="LOC_WITCH_MANAGER_OPTION_1" Anchor="C,C" Color="47,35,44,255" Style="FontNormalMedium20" Offset="0,-14"/>
+				<Label ID="ManosabaWitchConfigCost1Text" String="LOC_WITCH_MANAGER_OPTION_COST" Anchor="C,C" Color="125,93,142" Style="FontNormalMedium14" Offset="0,14"/>
+			</Button>
+			<Button ID="ManosabaWitchConfigOption2" Anchor="L,T" Size="800,250" Offset="0,400">
+				<Image Anchor="C,C" Size="parent,parent" Texture="IMG_MANOSABA_TEXT_BOX"/>
+				<Label ID="ManosabaWitchConfigOption2Text" String="LOC_WITCH_MANAGER_OPTION_2" Anchor="C,C" Color="47,35,44,255" Style="FontNormalMedium20" Offset="0,-14"/>
+				<Label ID="ManosabaWitchConfigCost2Text" String="LOC_WITCH_MANAGER_OPTION_COST" Anchor="C,C" Color="125,93,142" Style="FontNormalMedium14" Offset="0,14"/>
+			</Button>
+			<Button ID="ManosabaWitchConfigOption3" Anchor="L,T" Size="800,250" Offset="0,700">
+				<Image Anchor="C,C" Size="parent,parent" Texture="IMG_MANOSABA_TEXT_BOX"/>
+				<Label ID="ManosabaWitchConfigOption3Text" String="LOC_WITCH_MANAGER_OPTION_3" Anchor="C,C" Color="47,35,44,255" Style="FontNormalMedium20"/>
+			</Button>
+		</Container>
+	</Container>
+	
+
+</Context>

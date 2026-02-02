@@ -47,18 +47,72 @@ end)
 
 Events.UnitKilledInCombat.Add(function(killedPlayerID, killedUnitID, playerID, unitID)
 	playHiroKillUnitVoice(playerID)
+	playSherryKillUnitVoice(playerID)
 end)
+
+Events.UnitCommandStarted.Add(function(playerID, unitID, hCommand, iData1)
+	playSherryUnitAccelerateWondrProductionVoice(playerID, unitID, hCommand, iData1)
+end)
+
+function playSherryUnitAccelerateWondrProductionVoice(playerID, unitID, hCommand)
+	local leader = getLeaderName()
+	local pPlayer	:table = Players[playerID];
+	local pUnit		:table = pPlayer:GetUnits():FindID(unitID);
+	if pUnit == nil then return; end
+	print("unit type:"..GameInfo.Units[pUnit:GetUnitType()].UnitType);
+	print(hCommand)
+	if Game.GetLocalPlayer() == playerID and leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME" and hCommond == nil and GameInfo.Units[pUnit:GetUnitType()].UnitType == "UNIT_BUILDER" then
+		local random = getRandomNum(1, 3)
+		UI.PlaySound("Manosaba_Sherry_Build_"..random.."_Voice")
+	end
+end
+
+Events.GreatWorkCreated.Add(function(playerID, unitID, iCityPlotX, iCityPlotY, buildingID, greatWorkID)
+	playGetEvidenceVoice(playerID, unitID, iCityPlotX, iCityPlotY, greatWorkID)
+end)
+
+
+function playGetEvidenceVoice(playerID, unitID, cityX, cityY, greatWorkID)
+	if greatWorkID == nil then return; end
+	local leader = getLeaderName()
+	print("playGetEvidenceVoice greatWorkID:"..greatWorkID)
+	m_City = Cities.GetCityInPlot(Map.GetPlotIndex(cityX, cityY));
+	if m_City == nil then return; end
+	m_CityBldgs = m_City:GetBuildings();
+	m_GreatWorkType = m_CityBldgs:GetGreatWorkTypeFromIndex(greatWorkID);
+	local greatWorkInfo:table = GameInfo.GreatWorks[m_GreatWorkType];
+	if greatWorkInfo == nil or greatWorkInfo.GreatWorkObjectType ~= "GREATWORKOBJECT_MANOSABA_EVIDENCE" then return; end
+	
+	if Game.GetLocalPlayer() == playerID and leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME"  then
+		print("Sherry voice for GetEvidenceVoice")
+		local random = getRandomNum(1, 3)
+		UI.PlaySound("Manosaba_Sherry_Find_Something_"..random.."_Voice")
+	end
+end
 
 function playHiroKillUnitVoice(playerID) 
 	if Game.GetLocalPlayer() == playerID then
-		local random = getRandomNum(1, 5)
-		if random == 1 then
-			UI.PlaySound("Manosaba_Unit_Kill_Voice")
-		elseif random == 2 then
-			UI.PlaySound("Manosaba_Unit_Kill_2_Voice")
+		local leader = getLeaderName()
+		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
+			local random = getRandomNum(1, 5)
+			if random == 1 then
+				UI.PlaySound("Manosaba_Unit_Kill_Voice")
+			elseif random == 2 then
+				UI.PlaySound("Manosaba_Unit_Kill_2_Voice")
+			end
 		end
 	end
-end 
+end
+
+function playSherryKillUnitVoice(playerID) 
+	if Game.GetLocalPlayer() == playerID then
+		local leader = getLeaderName()
+		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+			local random = getRandomNum(1, 2)
+			UI.PlaySound("Manosaba_Sherry_Unit_Kill_"..random.."_Voice")
+		end
+	end
+end
 
 function playDeclareWarBGM(firstPlayerID)
 	if Game.GetLocalPlayer() == firstPlayerID then
@@ -102,50 +156,100 @@ function playStartVoice()
 			UI.PlaySound("Manosaba_Hiro_StartGame_Voice")
 		end
 	end
+	if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+		local currentTurn = Game.GetCurrentGameTurn();
+		if currentTurn > 1 then
+			local voiceIndex = getRandomNum(1,3)
+			UI.PlaySound("Manosaba_Sherry_Restart_"..voiceIndex.."_Voice")
+		else
+			UI.PlaySound("Manosaba_Sherry_Start_Voice")
+		end
+	end
 end
 
 function playCompetitionVoice(turn, playerID)
 	if playerID ~= Game.GetLocalPlayer() then return; end
 	-- Current turn has already played the sound(aviod player turn activate mutiple times)
 	if UIplayRecord == turn then return; end
+	local leader = getLeaderName()
 	-- competition 1 start turn
 	if turn == 27 then
-		UI.PlaySound("Manosaba_Hiro_Trial_1_Start_Voice")
+		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
+			UI.PlaySound("Manosaba_Hiro_Trial_1_Start_Voice")
+		end
+		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+			UI.PlaySound("Manosaba_Sherry_Trial_6_Start_Voice")
+		end
 		UIplayRecord = 27
 	end
 	-- competition 1 end turn
 	if turn == 37 then
-		UI.PlaySound("Manosaba_Hiro_Trial_1_End_Voice")
+		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
+			UI.PlaySound("Manosaba_Hiro_Trial_1_End_Voice")
+		end
+		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+			UI.PlaySound("Manosaba_Sherry_Trial_6_End_Voice")
+		end
 		UIplayRecord = 37
 	end
 	-- competition 2 start turn
 	if turn == 52 then
-		UI.PlaySound("Manosaba_Hiro_Trial_2_Start_Voice")
+		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
+			UI.PlaySound("Manosaba_Hiro_Trial_2_Start_Voice")
+		end
+		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+			UI.PlaySound("Manosaba_Sherry_Trial_7_Start_Voice")
+		end
 		UIplayRecord = 52
 	end
 	-- competition 2 end turn
 	if turn == 62 then
-		UI.PlaySound("Manosaba_Hiro_Trial_2_End_Voice")
+		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
+			UI.PlaySound("Manosaba_Hiro_Trial_2_End_Voice")
+		end
+		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+			UI.PlaySound("Manosaba_Sherry_Trial_7_End_Voice")
+		end
 		UIplayRecord = 62
 	end
 	-- competition 3 start turn
 	if turn == 77 then
-		UI.PlaySound("Manosaba_Hiro_Trial_3_Start_Voice")
+		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
+			UI.PlaySound("Manosaba_Hiro_Trial_3_Start_Voice")
+		end
+		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+			UI.PlaySound("Manosaba_Sherry_Trial_8_Start_Voice")
+		end
 		UIplayRecord = 77
 	end
 	-- competition 3 end turn
 	if turn == 87 then
-		UI.PlaySound("Manosaba_Hiro_Trial_3_End_Voice")
+		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
+			UI.PlaySound("Manosaba_Hiro_Trial_3_End_Voice")
+		end
+		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+			UI.PlaySound("Manosaba_Sherry_Trial_8_End_Voice")
+		end
 		UIplayRecord = 87
 	end
 	-- competition 4 start turn
 	if turn == 102 then
-		UI.PlaySound("Manosaba_Hiro_Trial_4_Start_Voice")
+		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
+			UI.PlaySound("Manosaba_Hiro_Trial_4_Start_Voice")
+		end
+		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+			UI.PlaySound("Manosaba_Sherry_Trial_9_Start_Voice")
+		end
 		UIplayRecord = 102
 	end
 	-- competition 4 end turn
 	if turn == 112 then
-		UI.PlaySound("Manosaba_Hiro_Trial_4_End_Voice")
+		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
+			UI.PlaySound("Manosaba_Hiro_Trial_4_End_Voice")
+		end
+		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
+			UI.PlaySound("Manosaba_Sherry_Trial_9_End_Voice")
+		end
 		UIplayRecord = 112
 	end
 end

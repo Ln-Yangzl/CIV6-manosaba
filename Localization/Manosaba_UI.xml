@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_UI -->
+<!-- Author: Rin -->
+<!-- DateCreated: 2/1/2026 11:01:37 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_MANOSABA_WITCH_FACTOR_PER_TURN" Language="zh_Hans_CN">
+			<Text>每回合魔女因子: </Text>
+		</Row>
+		<Row Tag="LOC_MANOSABA_WITCH_FACTOR_PRESS_TURN" Language="zh_Hans_CN">
+			<Text>魔女化抑制中，剩余回合: </Text>
+		</Row>
+
+		<Row Tag="LOC_WITCH_MANAGER_BUTTON_TOOLTIP" Language="zh_Hans_CN">
+			<Text>魔女控制面板</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_MANAGER_OPTION_1" Language="zh_Hans_CN">
+			<Text>加速魔女化</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_MANAGER_OPTION_2" Language="zh_Hans_CN">
+			<Text>抑制魔女化</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_MANAGER_OPTION_3" Language="zh_Hans_CN">
+			<Text>算了</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_MANAGER_OPTION_COST" Language="zh_Hans_CN">
+			<Text>花费%d信仰</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_MANAGER_OPTION_COST_INSUFFICIENT" Language="zh_Hans_CN">
+			<Text>(信仰不足)</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

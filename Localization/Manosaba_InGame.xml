@@ -29,7 +29,7 @@
 			<Text>淋浴房</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_8" Language="zh_Hans_CN">
-			<Text>接客市</Text>
+			<Text>接客室</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_MANOSABA_CITY_9" Language="zh_Hans_CN">
 			<Text>食堂</Text>
@@ -233,14 +233,7 @@
 			<Text>艾玛所传的礼服。</Text>
 		</Row>
 
-	
-		<Row Tag="LOC_BUILDING_MANOSABA_SCAFFOLD_NAME" Language="zh_Hans_CN">
-			<Text>处刑台</Text>
-		</Row>
 
-		<Row Tag="LOC_BUILDING_BUILDING_COLD_ROOM_NAME" Language="zh_Hans_CN">
-			<Text>冷藏室</Text>
-		</Row>
 
 		<Row Tag="LOC_PROJECT_MANOSABA_TRIAL_REASONING_NAME" Language="zh_Hans_CN">
 			<Text>反驳</Text>
@@ -328,6 +321,7 @@
 		<Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_PROJECT_MANOSABA_TRIAL_SUBMIT_EVIDENCE" Language="zh_Hans_CN">
 			<Text>城市可进行特殊项目「提交证据」。</Text>
 		</Row>
+
 
 		
 	</LocalizedText>

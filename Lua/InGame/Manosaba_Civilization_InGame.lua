@@ -74,18 +74,32 @@ end)
 function EmergencyAddAiRandomPointsInner(greatPersonID)
 	for _, playerID in ipairs(PlayerManager.GetAliveMajorIDs()) do
 		if Game.GetLocalPlayer() ~= playerID then
-			local randomStrategy = getRandomNum(1, 15)
+			local turn = Game.GetCurrentGameTurn()
+			local maxRandom = 15
+			if turn <= 25 then
+				maxRandom = 50
+			end
+			if turn <= 50 then
+				maxRandom = 30
+			end
+			if turn <= 75 then
+				maxRandom = 25
+			end
+			if turn > 100 then
+				maxRandom = 20
+			end
+			local randomStrategy = getRandomNum(1, maxRandom)
 			if randomStrategy == 1 or randomStrategy == 2 or randomStrategy == 3 then
 				OnCompetitionProjectFinishInner(playerID, m_ProjectTrailReasoning.Index, greatPersonID)
 			end
 			if randomStrategy == 4 then
 				OnCompetitionProjectFinishInner(playerID, m_ProjectTrailAgree.Index, greatPersonID)
 			end
-			--if randomStrategy == 5 then
-				---- Mock AI submit evidence
-				--OnCompetitionProjectFinishInner(playerID, m_ProjectTrailPerjury.Index, greatPersonID)
-				--OnCompetitionProjectFinishInner(playerID, m_ProjectTrailPerjury.Index, greatPersonID)
-			--end
+			if turn >= 75 and math.random(1, 50) == 1 then
+				-- Mock AI submit evidence
+				OnCompetitionProjectFinishInner(playerID, m_ProjectTrailPerjury.Index, greatPersonID)
+				OnCompetitionProjectFinishInner(playerID, m_ProjectTrailPerjury.Index, greatPersonID)
+			end
 		end
 	end
 end
@@ -116,13 +130,14 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			print("competition m_ManosabaCompetition1 start")
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints)
 			Events.CityProjectCompleted.Add(OnCompetition1ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition1.EmergencyType)
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition1 end")
 			Events.TurnEnd.Remove(EmergencyAddAiRandomPoints)
 			Events.CityProjectCompleted.Remove(OnCompetition1ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
 		end
-		Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition1.EmergencyType)
 	end
 	if m_ManosabaCompetition6 and emergencyID == m_ManosabaCompetition6.Index then
 		-- start of this competition
@@ -130,13 +145,14 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			print("competition m_ManosabaCompetition6 start")
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints6)
 			Events.CityProjectCompleted.Add(OnCompetition6ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition6.EmergencyType)
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition6 end")
 			Events.TurnEnd.Remove(EmergencyAddAiRandomPoints6)
 			Events.CityProjectCompleted.Remove(OnCompetition6ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
 		end
-		Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition6.EmergencyType)
 	end
 	if m_ManosabaCompetition7 and emergencyID == m_ManosabaCompetition7.Index then
 		-- start of this competition
@@ -144,13 +160,14 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			print("competition m_ManosabaCompetition7 start")
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints7)
 			Events.CityProjectCompleted.Add(OnCompetition7ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition7.EmergencyType)
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition7 end")
 			Events.TurnEnd.Remove(EmergencyAddAiRandomPoints7)
 			Events.CityProjectCompleted.Remove(OnCompetition7ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
 		end
-		Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition7.EmergencyType)
 	end
 	if m_ManosabaCompetition8 and emergencyID == m_ManosabaCompetition8.Index then
 		-- start of this competition
@@ -158,6 +175,7 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			print("competition m_ManosabaCompetition8 start")
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints8)
 			Events.CityProjectCompleted.Add(OnCompetition8ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition8.EmergencyType)
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition8 end")
@@ -166,8 +184,8 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			local maxPointPlayer = GetMaxPointPlayer(m_EmergencyGreatPersonClass8.Index, nil)
 			print('maxPointPlayer:'..maxPointPlayer)
 			OnManosabaBuildingProduction(maxPointPlayer)
+			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
 		end
-		Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition8.EmergencyType)
 	end
 	if m_ManosabaCompetition9 and emergencyID == m_ManosabaCompetition9.Index then
 		-- start of this competition
@@ -175,17 +193,29 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			print("competition m_ManosabaCompetition9 start")
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints9)
 			Events.CityProjectCompleted.Add(OnCompetition9ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition9.EmergencyType)
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition9 end")
 			Events.TurnEnd.Remove(EmergencyAddAiRandomPoints9)
 			Events.CityProjectCompleted.Remove(OnCompetition9ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
 		end
-		Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition9.EmergencyType)
 	end
 end
 
+-- when reload the game, need to add emergency project hook again
+function EmergencyRecover()
+	local currentCompetitionType = Game:GetProperty(COMPETITION_TYPE_KEY)
+	if currentCompetitionType == nil then return; end
+	print("recover emergency:"..currentCompetitionType)
+	-- make OnEmergencyAvailable restart
+	Game:SetProperty(COMPETITION_TYPE_KEY, nil)
+	OnEmergencyAvailable(nil, GameInfo.EmergencyAlliances[currentCompetitionType].Index, nil)
+end
+
 Events.EmergencyAvailable.Add(OnEmergencyAvailable)
+Events.LoadScreenClose.Add(EmergencyRecover)
 
 function OnManosabaBuildingProduction(playerId)
     local player = Players[playerId]

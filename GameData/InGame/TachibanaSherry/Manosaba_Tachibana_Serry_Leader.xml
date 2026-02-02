@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Tachibana_Serry_Leader -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/25/2026 7:37:06 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_MANOSABA_TACHIBANA_SHERRY" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_MANOSABA_STRENGTH" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_MANOSABA_TACHIBANA_SHERRY" Name="LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME" InheritFrom="LEADER_DEFAULT"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_MANOSABA_TACHIBANA_SHERRY" Quote="LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_QOUTE" QuoteAudio="Manosaba_Sherry_Start_Voice"/>
+	</LeaderQuotes>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_MANOSABA_STRENGTH" Name="LOC_TRAIT_LEADER_MANOSABA_STRENGTH_NAME" Description="LOC_TRAIT_LEADER_MANOSABA_STRENGTH_DESCRIPTION"/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MANOSABA_TACHIBANA_SHERRY" TraitType="TRAIT_LEADER_MANOSABA_STRENGTH"/>
+		<Row LeaderType="LEADER_MANOSABA_TACHIBANA_SHERRY" TraitType="TRAIT_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_PRISON_ISLAND"/>
+	</LeaderTraits>
+
+
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_MANOSABA_TACHIBANA_SHERRY" ForegroundImage="LEADER_MANOSABA_TACHIBANA_SHERRY_NEUTRAL" BackgroundImage="LEADER_MANOSABA_TACHIBANA_SHERRY_BACKGROUND_LOAD" PlayDawnOfManAudio="0" EraText="LOC_ERA_MANOSABA_TACHIBANA_SHERRY_TEXT" LeaderText="LOC_LOADING_INFO_LEADER_MANOSABA_TACHIBANA_SHERRY"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_MANOSABA_TACHIBANA_SHERRY" BackgroundImage="LEADER_MANOSABA_TACHIBANA_SHERRY_BACKGROUND"/>
+	</DiplomacyInfo>
+</GameData>

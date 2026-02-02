@@ -26,7 +26,7 @@
 		</Row>
 
 		<Row Tag="LOC_BUILDING_CIVILIZATION_MANOSABA_PRISON_ISLAND_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>监狱岛的特色建筑，只能建立在首都的市中心，提供+3[ICON_Culture]文化、+1[ICON_Food]食物。建成时获得一个侦查单位。</Text>
+			<Text>监狱岛的特色建筑，只能建立在首都的市中心，提供+3[ICON_Culture]文化、+1[ICON_Food]食物、+1[ICON_UnderSiege]魔女因子。建成时获得一个侦查单位。</Text>
 		</Row>
 
 		<Row Tag="LOC_DISTRICT_MANOSABA_COURT_NAME" Language="zh_Hans_CN">
@@ -34,13 +34,27 @@
 		</Row>
 
 		<Row Tag="LOC_DISTRICT_MANOSABA_COURT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>监狱岛的特色区域，取代圣地，建造费用更低，额外提供+3[ICON_Culture]文化。替换神社为「处刑台」，替换寺庙为「冷冻室」。</Text>
+			<Text>监狱岛的特色区域，取代圣地，建造费用更低，+1[ICON_UnderSiege]魔女因子，额外提供+3[ICON_Culture]文化。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_MANOSABA_SCAFFOLD_NAME" Language="zh_Hans_CN">
+			<Text>处刑台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MANOSABA_SCAFFOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>替代神社，提供+1[ICON_UnderSiege]魔女因子。所属城市购买平民单位提供15%折扣。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_MANOSABA_COLD_ROOM_NAME" Language="zh_Hans_CN">
+			<Text>冷藏室</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MANOSABA_COLD_ROOM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>替代寺庙，提供+1[ICON_UnderSiege]魔女因子。所属城市购买军事单位提供15%折扣。</Text>
 		</Row>
 
 
 		<!-- 文明技能描述述 来自Config-->
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MANOSABA_PRISON_ISLAND_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>会定期举行特殊事件「魔女审判」，在事件中获胜可获得奖励。触发[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞时，有概率获得「证物」。</Text>
+			<Text>会定期举行特殊事件「魔女审判」，在事件中获胜可获得奖励。触发[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞时，有概率获得「证物」。[NEWLINE][NEWLINE]监狱岛的市中心、特色区域、特色建筑会产生[ICON_UnderSiege]魔女因子，推进魔女化进度，依据当前魔女化进度提供[ICON_Faith]信仰百分比收入加成。[NEWLINE][NEWLINE]可通过魔女控制面板花费一定量的[ICON_Faith]信仰来加速或抑制魔女化，当完全魔女化时，游戏失败。</Text>
 		</Row>
 
 
@@ -57,6 +71,21 @@
 		<!-- 领袖技能名称 来自Config-->
 		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_PERJURY_NAME" Language="zh_Hans_CN">
 			<Text>追求正确的少女</Text>
+		</Row>
+
+		<!-- 领袖名称 来自Config-->
+		<Row Tag="LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME" Language="zh_Hans_CN">
+			<Text>橘雪莉</Text>
+		</Row>
+
+		<!-- 领袖技能说明 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造奇观时+30%[ICON_Production]生产力。可消耗建造者次数来加速奇观原始建造进程的20%。</Text>
+		</Row>
+
+		<!-- 领袖技能名称 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>自称名侦探的少女</Text>
 		</Row>
 		
 	</LocalizedText>

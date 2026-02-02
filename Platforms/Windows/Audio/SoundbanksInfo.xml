@@ -35,6 +35,30 @@
 				<Event Id="1116246757" Name="Manosaba_Hiro_Trial_4_End_Voice"/>
 				<Event Id="3380146170" Name="Manosaba_Hiro_Trial_4_Start_Voice"/>
 				<Event Id="2560826495" Name="Manosaba_Loading_BGM"/>
+				<Event Id="3044745317" Name="Manosaba_Sherry_Build_1_Voice"/>
+				<Event Id="675701082" Name="Manosaba_Sherry_Build_2_Voice"/>
+				<Event Id="2091624187" Name="Manosaba_Sherry_Build_3_Voice"/>
+				<Event Id="2852136729" Name="Manosaba_Sherry_Find_Something_1_Voice"/>
+				<Event Id="2571861166" Name="Manosaba_Sherry_Find_Something_2_Voice"/>
+				<Event Id="1812101039" Name="Manosaba_Sherry_Find_Something_3_Voice"/>
+				<Event Id="3198477404" Name="Manosaba_Sherry_Find_Something_4_Voice"/>
+				<Event Id="2130142885" Name="Manosaba_Sherry_Find_Something_5_Voice"/>
+				<Event Id="4056065946" Name="Manosaba_Sherry_Find_Something_6_Voice"/>
+				<Event Id="3878261564" Name="Manosaba_Sherry_Restart_1_Voice"/>
+				<Event Id="258569499" Name="Manosaba_Sherry_Restart_2_Voice"/>
+				<Event Id="3332498170" Name="Manosaba_Sherry_Restart_3_Voice"/>
+				<Event Id="3440505445" Name="Manosaba_Sherry_Start_Voice"/>
+				<Event Id="4160988570" Name="Manosaba_Sherry_Trail_8_End_Voice"/>
+				<Event Id="3683345996" Name="Manosaba_Sherry_Trial_6_End_Voice"/>
+				<Event Id="2250059411" Name="Manosaba_Sherry_Trial_6_Start_Voice"/>
+				<Event Id="3189369705" Name="Manosaba_Sherry_Trial_7_End_Voice"/>
+				<Event Id="4158529782" Name="Manosaba_Sherry_Trial_7_Start_Voice"/>
+				<Event Id="1218258682" Name="Manosaba_Sherry_Trial_8_End_Voice"/>
+				<Event Id="2520862517" Name="Manosaba_Sherry_Trial_8_Start_Voice"/>
+				<Event Id="1978905711" Name="Manosaba_Sherry_Trial_9_End_Voice"/>
+				<Event Id="281789856" Name="Manosaba_Sherry_Trial_9_Start_Voice"/>
+				<Event Id="700735940" Name="Manosaba_Sherry_Unit_Kill_1_Voice"/>
+				<Event Id="3363652771" Name="Manosaba_Sherry_Unit_Kill_2_Voice"/>
 				<Event Id="3888035532" Name="Manosaba_Stop_All"/>
 				<Event Id="508659942" Name="Manosaba_Stop_Loading_BGM"/>
 				<Event Id="1324215369" Name="Manosaba_Unit_Kill_2_Voice"/>
@@ -42,6 +66,22 @@
 				<Event Id="1486437370" Name="Warden_Introduction_Voice"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="46746308" Language="SFX">
+					<ShortName>Sherry_Find_Something_1_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Find_Something_1_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="51756603" Language="SFX">
+					<ShortName>Sherry_Competition_8_Start_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Competition_8_Start_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="92858757" Language="SFX">
+					<ShortName>Sherry_Unit_Kill_1_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Unit_Kill_1_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="132983643" Language="SFX">
+					<ShortName>Sherry_Restart_1_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Restart_1_Voice_9E69E797.wem</Path>
+				</File>
 				<File Id="133938309" Language="SFX">
 					<ShortName>Hiro_Trial_1_start_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Trial_1_start_Voice_9E69E797.wem</Path>
@@ -53,6 +93,14 @@
 				<File Id="188128011" Language="SFX">
 					<ShortName>Hiro_Kaiho_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Kaiho_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="188232012" Language="SFX">
+					<ShortName>Sherry_Unit_Kill_2_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Unit_Kill_2_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="278580908" Language="SFX">
+					<ShortName>Sherry_Build_3_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Build_3_Voice_9E69E797.wem</Path>
 				</File>
 				<File Id="280632084" Language="SFX">
 					<ShortName>Hiro_Tadashiku_Nai_Voice.wav</ShortName>
@@ -66,6 +114,10 @@
 					<ShortName>Hiro_Trial_4_end_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Trial_4_end_Voice_9E69E797.wem</Path>
 				</File>
+				<File Id="293675169" Language="SFX">
+					<ShortName>Sherry_Competition_7_Start_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Competition_7_Start_Voice_9E69E797.wem</Path>
+				</File>
 				<File Id="311496353" Language="SFX">
 					<ShortName>Hiro_Trail_3_end_2_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Trail_3_end_2_Voice_9E69E797.wem</Path>
@@ -74,13 +126,29 @@
 					<ShortName>Hiro_Trail_1_end_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Trail_1_end_Voice_9E69E797.wem</Path>
 				</File>
+				<File Id="346027702" Language="SFX">
+					<ShortName>Sherry_Start_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Start_Voice_9E69E797.wem</Path>
+				</File>
 				<File Id="387927465" Language="SFX">
 					<ShortName>Bgm_036_001_Loop_main_page_bgm.wav</ShortName>
 					<Path>SFX\Bgm_036_001_Loop_main_page_bgm_9E69E797.wem</Path>
 				</File>
+				<File Id="420608300" Language="SFX">
+					<ShortName>Sherry_Restart_3_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Restart_3_Voice_9E69E797.wem</Path>
+				</File>
 				<File Id="445783535" Language="SFX">
 					<ShortName>Hiro_Trial_2_start_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Trial_2_start_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="454235348" Language="SFX">
+					<ShortName>Sherry_Find_Something_2_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Find_Something_2_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="477938688" Language="SFX">
+					<ShortName>Sherry_Competition_7_End_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Competition_7_End_Voice_9E69E797.wem</Path>
 				</File>
 				<File Id="497343249" Language="SFX">
 					<ShortName>Hiro_Aku_Shine_Voice.wav</ShortName>
@@ -90,6 +158,10 @@
 					<ShortName>Warden_Introduction_Voice.wav</ShortName>
 					<Path>SFX\Warden_Introduction_Voice_9E69E797.wem</Path>
 				</File>
+				<File Id="538827994" Language="SFX">
+					<ShortName>Sherry_Find_Something_4_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Find_Something_4_Voice_9E69E797.wem</Path>
+				</File>
 				<File Id="551819718" Language="SFX">
 					<ShortName>Hiro_Trial_3_start_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Trial_3_start_Voice_9E69E797.wem</Path>
@@ -98,21 +170,65 @@
 					<ShortName>Be_Declered_War_BGM_adjust2.wav</ShortName>
 					<Path>SFX\Be_Declered_War_BGM_adjust2_9E69E797.wem</Path>
 				</File>
+				<File Id="638117714" Language="SFX">
+					<ShortName>Sherry_Competition_9_Start_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Competition_9_Start_Voice_9E69E797.wem</Path>
+				</File>
 				<File Id="658336522" Language="SFX">
 					<ShortName>Hiro_Trial_4_start_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Trial_4_start_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="717508791" Language="SFX">
+					<ShortName>Sherry_Competition_6_Start_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Competition_6_Start_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="717845867" Language="SFX">
+					<ShortName>Sherry_Find_Something_3_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Find_Something_3_Voice_9E69E797.wem</Path>
 				</File>
 				<File Id="777815009" Language="SFX">
 					<ShortName>Hiro_Start_Game_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Start_Game_Voice_9E69E797.wem</Path>
 				</File>
+				<File Id="826023163" Language="SFX">
+					<ShortName>Sherry_Restart_2_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Restart_2_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="827058956" Language="SFX">
+					<ShortName>Sherry_Build_1_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Build_1_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="854586525" Language="SFX">
+					<ShortName>Sherry_Competition_6_End_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Competition_6_End_Voice_9E69E797.wem</Path>
+				</File>
 				<File Id="880945138" Language="SFX">
 					<ShortName>Hiro_Pen_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Pen_Voice_9E69E797.wem</Path>
 				</File>
+				<File Id="886769569" Language="SFX">
+					<ShortName>Sherry_Find_Something_6_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Find_Something_6_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="887554806" Language="SFX">
+					<ShortName>Sherry_Build_2_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Build_2_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="936067898" Language="SFX">
+					<ShortName>Sherry_Find_Something_5_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Find_Something_5_Voice_9E69E797.wem</Path>
+				</File>
 				<File Id="941854266" Language="SFX">
 					<ShortName>Hiro_Trial_2_end_Voice.wav</ShortName>
 					<Path>SFX\Hiro_Trial_2_end_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="949897698" Language="SFX">
+					<ShortName>Sherry_Competition_9_End_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Competition_9_End_Voice_9E69E797.wem</Path>
+				</File>
+				<File Id="987788616" Language="SFX">
+					<ShortName>Sherry_Competition_8_End_Voice.wav</ShortName>
+					<Path>SFX\Sherry_Competition_8_End_Voice_9E69E797.wem</Path>
 				</File>
 				<File Id="1015463896" Language="SFX">
 					<ShortName>Hiro_Modoru_1_Voice.wav</ShortName>

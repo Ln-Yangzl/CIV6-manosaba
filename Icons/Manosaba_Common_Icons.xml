@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Common_Icons -->
+<!-- Author: Rin -->
+<!-- DateCreated: 1/31/2026 1:53:42 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_WITCH_FACTOR" IconSize="16" Filename="ICON_WITCH_FACTOR_16"/>
+		<Row Name="ATLAS_WITCH_FACTORLarge" IconSize="22" Filename="ICON_WITCH_FACTOR_22"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="Witch_Factor" Atlas="ATLAS_WITCH_FACTOR" Index="0"/>
+		<Row Name="Witch_FactorLarge" Atlas="ATLAS_WITCH_FACTORLarge" Index="0"/>
+	</IconDefinitions>
+	
+
+</GameData>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..GameArtSpecification>
 	<id>
-		<name text="Manosaba"/>
+		<name text="魔法少女的魔女审判 领袖包"/>
 		<id text="fb8b0a6c-ee5b-405e-b784-e43748f930d4"/>
 	</id>
 	<artConsumers>
@@ -417,6 +417,7 @@
 			<libraryName text="LeaderFallback"/>
 			<relativePackagePaths>
 				<Element text="NikaidoHiroLeaderFallback"/>
+				<Element text="TachibanaSherryLeaderFallback"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -492,6 +493,8 @@
 			<relativePackagePaths>
 				<Element text="ManosabaEvidenceUITexture"/>
 				<Element text="ManosabaNikaidoHiroUITexture"/>
+				<Element text="ManosabaTachibanaSherryUITexture"/>
+				<Element text="ManosabaCommonUITexture"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

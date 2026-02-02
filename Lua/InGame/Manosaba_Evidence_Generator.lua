@@ -79,9 +79,9 @@ function GrantManosabaLocalPlayerEvidence(playerID)
 	if string.find(sLeaderType, "LEADER_MANOSABA") and Game.GetLocalPlayer() == playerID then
 		-- avoid muti grant great person in one turn
 		if turn == previousGrantTurn then return; end
-		--GrantEvidence(playerID)
 		previousGrantTurn = turn
 		local randomNum = math.random(1, 3)
+		--local randomNum = 1
 		if randomNum == 1 then
 			GrantEvidence(playerID)
 		end

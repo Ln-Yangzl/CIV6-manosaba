@@ -10,10 +10,6 @@
 	<m_PackageName text="ManosabaNikaidoHiroUITexture"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="MOMENT_BUILDING_MANOSABA_PRISON_ISLAND"/>
-			<m_ObjectName text="MOMENT_BUILDING_MANOSABA_PRISON_ISLAND"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_128"/>
 			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_128"/>
 		</Element>
@@ -136,10 +132,6 @@
 		<Element>
 			<m_EntryID text="LEADER_MANOSABA_NIKAIDO_HIRO_PORTRAIT"/>
 			<m_ObjectName text="LEADER_MANOSABA_NIKAIDO_HIRO_PORTRAIT"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MOMENT_DISTRICT_MANOSABA_COURT"/>
-			<m_ObjectName text="MOMENT_DISTRICT_MANOSABA_COURT"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_BUILDING_TEMPLE_128"/>

@@ -14,8 +14,12 @@
 			<Color>174,15,57,255</Color>
 		</Row>
 		<Row>
-			<Type>COLOR_PLAYER_LEADER_MANOSABA_NIKAIDO_HIRO_TEXT</Type>
-			<Color>39,45,54,255</Color>
+			<Type>COLOR_PLAYER_LEADER_MANOSABA_TACHIBANA_SHERRY_PRIMARY</Type>
+			<Color>69,131,187,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_MANOSABA_TACHIBANA_SHERRY_SECONDARY</Type>
+			<Color>242,241,246,255</Color>
 		</Row>
 	</Colors>
 
@@ -25,6 +29,18 @@
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_LEADER_MANOSABA_NIKAIDO_HIRO_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_LEADER_MANOSABA_NIKAIDO_HIRO_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_RED_MD</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_RED_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_WHITE_DK</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_ORANGE_LT</Alt3SecondaryColor>
+		</Row>
+		<Row>
+			<Type>LEADER_MANOSABA_TACHIBANA_SHERRY</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_MANOSABA_TACHIBANA_SHERRY_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_MANOSABA_TACHIBANA_SHERRY_SECONDARY</SecondaryColor>
 			<Alt1PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt1PrimaryColor>
 			<Alt1SecondaryColor>COLOR_STANDARD_RED_MD</Alt1SecondaryColor>
 			<Alt2PrimaryColor>COLOR_STANDARD_RED_LT</Alt2PrimaryColor>
