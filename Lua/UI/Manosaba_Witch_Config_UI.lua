@@ -67,8 +67,40 @@ function InitConfigModal(leaderType)
 		Controls.ManosabaConfigModalLeaderImage:SetTexture("IMG_MANOSABA_HIRO_CONFIG")
 	elseif leaderType == "LEADER_MANOSABA_TACHIBANA_SHERRY" then
 		Controls.ManosabaConfigModalLeaderImage:SetTexture("IMG_MANOSABA_SHERRY_CONFIG")
+	elseif leaderType == "LEADER_MANOSABA_TONO_HANNA" then
+		Controls.ManosabaConfigModalLeaderImage:SetTexture("IMG_MANOSABA_HANNA_CONFIG")
 	end
 
+end
+
+function InitHiroStartConfigModal()
+	Controls.ManosabaWitchHiroStartConfigModal:ChangeParent(ContextPtr:LookUpControl("/InGame"))
+	Controls.ManosabaWitchHiroStartConfigModal:SetHide(false);
+
+	Controls.ManosabaHiroStartConfigOption1:RegisterCallback(Mouse.eLClick, function()
+		AjustHiroWitchFactor(0)
+		Controls.ManosabaWitchHiroStartConfigModal:SetHide(true);
+		UI.PlaySound("Manosaba_Choice")
+	end);
+	Controls.ManosabaHiroStartConfigOption2:RegisterCallback(Mouse.eLClick, function()
+		AjustHiroWitchFactor(300)
+		Controls.ManosabaWitchHiroStartConfigModal:SetHide(true);
+		UI.PlaySound("Manosaba_Choice")
+	end);
+	Controls.ManosabaHiroStartConfigOption3:RegisterCallback(Mouse.eLClick, function()
+		AjustHiroWitchFactor(600)
+		Controls.ManosabaWitchHiroStartConfigModal:SetHide(true);
+		UI.PlaySound("Manosaba_Choice")
+	end);
+
+end
+
+
+function AjustHiroWitchFactor(factorNum)
+	local playerID = Game.GetLocalPlayer() 
+	local player = Players[playerID]
+	local pSavedWitchFactor = player:GetProperty(PLAYER_WITCH_FACTOR_HAS_KEY) or 0
+	ExposedMembers.WitchFactor.SavePlayerProperty(playerID, PLAYER_WITCH_FACTOR_HAS_KEY, pSavedWitchFactor + factorNum)
 end
 
 function AccelerateWitch()
@@ -83,7 +115,7 @@ function AccelerateWitch()
 	ExposedMembers.WitchFactor.ChangeFaithBalance(playerID, -needFaith)
 	local pSavedWitchFactor = player:GetProperty(PLAYER_WITCH_FACTOR_HAS_KEY) or 0
 	ExposedMembers.WitchFactor.SavePlayerProperty(playerID, PLAYER_WITCH_FACTOR_HAS_KEY, pSavedWitchFactor + ACCERERATE_WITCH_FACTOR)
-	
+	UI.PlaySound("Manosaba_Choice")
 	CloseConfigModal()
 end
 
@@ -98,9 +130,11 @@ function SuppressWitch()
 	ExposedMembers.WitchFactor.SavePlayerProperty(playerID, PLAYER_SUPPRESS_COST_KEY, "COST_"..needFaith)
 	ExposedMembers.WitchFactor.ChangeFaithBalance(playerID, -needFaith)
 	ExposedMembers.WitchFactor.SavePlayerProperty(playerID, SUPPRESS_WITCH_TURN_KEY, Game.GetCurrentGameTurn() + SUPPRESS_FACTOR_TURN)
-
+	UI.PlaySound("Manosaba_Choice")
 	CloseConfigModal()
 end
+
+
 
 
 function Initialize()
@@ -111,6 +145,9 @@ function Initialize()
 	if civilization.CivilizationType == "CIVILIZATION_MANOSABA" then
 		InitConfigButton()
 		InitConfigModal(leader.LeaderType)
+	end
+	if leader.LeaderType == "LEADER_MANOSABA_NIKAIDO_HIRO" then
+		InitHiroStartConfigModal()
 	end
 end
 

@@ -32,8 +32,7 @@
 
 		<Row Tag="LOC_ERA_MANOSABA_TACHIBANA_SHERRY_TEXT" Language="ja_JP">
 			<Text>
-				[NEWLINE]「私はあなたが大嫌い。
-				[NEWLINE]        あなたは、存在そのものが間違っている」
+				[NEWLINE]「密室殺人！ミステリーじゃないですか〜！高まりますね〜！」
 			</Text>
 		</Row>
 
@@ -46,6 +45,18 @@
 				ほとんど場の空気を読まない一面がある。
 			</Text>
 		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MANOSABA_TACHIBANA_SHERRY_ANY" Language="zh_Hans_CN">
+			<Text>嗨嗨~！我叫橘雪莉。哪里有案件哪里就有我！一切就交给我这位名侦探吧！</Text>
+		</Row>
+
+		<!--<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MANOSABA_TACHIBANA_SHERRY_ANY" Language="zh_Hans_CN">
+			<Text>嗨嗨~！我叫橘雪莉。哪里有案件哪里就有我！一切就交给我这位名侦探吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MANOSABA_TACHIBANA_SHERRY_ANY" Language="zh_Hans_CN">
+			<Text>嗨嗨~！我叫橘雪莉。哪里有案件哪里就有我！一切就交给我这位名侦探吧！</Text>
+		</Row>-->
 
 
 

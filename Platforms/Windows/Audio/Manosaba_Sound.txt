@@ -1,48 +1,64 @@
 Event	ID	Name			Wwise Object Path	Notes
 	189297754	Manosaba_Hiro_Qoute_Voice			\Default Work Unit\Manosaba_Hiro_Qoute_Voice	
 	258569499	Manosaba_Sherry_Restart_2_Voice			\Default Work Unit\Manosaba_Sherry_Restart_2_Voice	
-	281789856	Manosaba_Sherry_Trial_9_Start_Voice			\Default Work Unit\Manosaba_Sherry_Trial_9_Start_Voice	
+	362306080	Manosaba_Sherry_Trial_2_End_Voice			\Default Work Unit\Manosaba_Sherry_Trial_2_End_Voice	
 	508659942	Manosaba_Stop_Loading_BGM			\Default Work Unit\Manosaba_Stop_Loading_BGM	
 	675701082	Manosaba_Sherry_Build_2_Voice			\Default Work Unit\Manosaba_Sherry_Build_2_Voice	
 	700735940	Manosaba_Sherry_Unit_Kill_1_Voice			\Default Work Unit\Manosaba_Sherry_Unit_Kill_1_Voice	
+	723063055	Manosaba_Sherry_Trial_2_Start_Voice			\Default Work Unit\Manosaba_Sherry_Trial_2_Start_Voice	
 	820282947	Be_Declared_War_BGM			\Default Work Unit\Be_Declared_War_BGM	
+	978216143	Manosaba_Hanna_Restart_3_Voice			\Default Work Unit\Manosaba_Hanna_Restart_3_Voice	
 	1116246757	Manosaba_Hiro_Trial_4_End_Voice			\Default Work Unit\Manosaba_Hiro_Trial_4_End_Voice	
-	1218258682	Manosaba_Sherry_Trial_8_End_Voice			\Default Work Unit\Manosaba_Sherry_Trial_8_End_Voice	
+	1164271908	Manosaba_Hanna_Trial_3_End_Voice			\Default Work Unit\Manosaba_Hanna_Trial_3_End_Voice	
+	1177091260	Manosaba_Hanna_Start_Voice			\Default Work Unit\Manosaba_Hanna_Start_Voice	
+	1235636896	Manosaba_Hanna_Trial_4_Start_Voice			\Default Work Unit\Manosaba_Hanna_Trial_4_Start_Voice	
 	1324215369	Manosaba_Unit_Kill_2_Voice			\Default Work Unit\Manosaba_Unit_Kill_2_Voice	
+	1406183977	Manosaba_Hanna_Trial_1_Start_Voice			\Default Work Unit\Manosaba_Hanna_Trial_1_Start_Voice	
+	1416036772	Manosaba_Hanna_Unit_Move_3_Voice			\Default Work Unit\Manosaba_Hanna_Unit_Move_3_Voice	
 	1463581984	Manosaba_Hiro_Restart_2_Voice			\Default Work Unit\Manosaba_Hiro_Restart_2_Voice	
 	1486437370	Warden_Introduction_Voice			\Default Work Unit\Warden_Introduction_Voice	
 	1517011492	Manosaba_Hiro_Trial_2_Start_Voice			\Default Work Unit\Manosaba_Hiro_Trial_2_Start_Voice	
 	1528804590	Manosaba_Hiro_Get_Pen_Voice			\Default Work Unit\Manosaba_Hiro_Get_Pen_Voice	
+	1765354425	Manosaba_Choice			\Default Work Unit\Manosaba_Choice	
 	1774024820	Manosaba_Hiro_StartGame_Voice			\Default Work Unit\Manosaba_Hiro_StartGame_Voice	
 	1774640939	Manosaba_Hiro_Trial_1_Start_Voice			\Default Work Unit\Manosaba_Hiro_Trial_1_Start_Voice	
+	1790968771	Manosaba_Hiro_Self_Introduction_Voice			\Default Work Unit\Manosaba_Hiro_Self_Introduction_Voice	
 	1799044582	Manosaba_Hiro_Trial_3_End_Voice			\Default Work Unit\Manosaba_Hiro_Trial_3_End_Voice	
 	1812101039	Manosaba_Sherry_Find_Something_3_Voice			\Default Work Unit\Manosaba_Sherry_Find_Something_3_Voice	
 	1910677065	Declare_War_BGM			\Default Work Unit\Declare_War_BGM	
+	1958333602	Manosaba_Sherry_Trial_3_Start_Voice			\Default Work Unit\Manosaba_Sherry_Trial_3_Start_Voice	
 	1971110619	Manosaba_Hiro_Trial_2_End_Voice			\Default Work Unit\Manosaba_Hiro_Trial_2_End_Voice	
-	1978905711	Manosaba_Sherry_Trial_9_End_Voice			\Default Work Unit\Manosaba_Sherry_Trial_9_End_Voice	
 	2091624187	Manosaba_Sherry_Build_3_Voice			\Default Work Unit\Manosaba_Sherry_Build_3_Voice	
 	2130142885	Manosaba_Sherry_Find_Something_5_Voice			\Default Work Unit\Manosaba_Sherry_Find_Something_5_Voice	
-	2250059411	Manosaba_Sherry_Trial_6_Start_Voice			\Default Work Unit\Manosaba_Sherry_Trial_6_Start_Voice	
+	2252144446	Manosaba_Hanna_Trial_2_Start_Voice			\Default Work Unit\Manosaba_Hanna_Trial_2_Start_Voice	
 	2494609908	Manosaba_Hiro_Trial_1_End_Voice			\Default Work Unit\Manosaba_Hiro_Trial_1_End_Voice	
-	2520862517	Manosaba_Sherry_Trial_8_Start_Voice			\Default Work Unit\Manosaba_Sherry_Trial_8_Start_Voice	
 	2560826495	Manosaba_Loading_BGM			\Default Work Unit\Manosaba_Loading_BGM	
 	2571861166	Manosaba_Sherry_Find_Something_2_Voice			\Default Work Unit\Manosaba_Sherry_Find_Something_2_Voice	
+	2832592157	Manosaba_Sherry_Trial_3_End_Voice			\Default Work Unit\Manosaba_Sherry_Trial_3_End_Voice	
 	2852136729	Manosaba_Sherry_Find_Something_1_Voice			\Default Work Unit\Manosaba_Sherry_Find_Something_1_Voice	
+	2910006294	Manosaba_Hanna_Trial_1_End_Voice			\Default Work Unit\Manosaba_Hanna_Trial_1_End_Voice	
 	3044745317	Manosaba_Sherry_Build_1_Voice			\Default Work Unit\Manosaba_Sherry_Build_1_Voice	
-	3189369705	Manosaba_Sherry_Trial_7_End_Voice			\Default Work Unit\Manosaba_Sherry_Trial_7_End_Voice	
+	3141122126	Manosaba_Hanna_Restart_2_Voice			\Default Work Unit\Manosaba_Hanna_Restart_2_Voice	
+	3196659390	Manosaba_Sherry_Trial_4_End_Voice			\Default Work Unit\Manosaba_Sherry_Trial_4_End_Voice	
 	3198477404	Manosaba_Sherry_Find_Something_4_Voice			\Default Work Unit\Manosaba_Sherry_Find_Something_4_Voice	
 	3215661215	Manosaba_Hiro_Restart_1_Voice			\Default Work Unit\Manosaba_Hiro_Restart_1_Voice	
 	3332498170	Manosaba_Sherry_Restart_3_Voice			\Default Work Unit\Manosaba_Sherry_Restart_3_Voice	
+	3332762977	Manosaba_Hanna_Trial_2_End_Voice			\Default Work Unit\Manosaba_Hanna_Trial_2_End_Voice	
 	3363652771	Manosaba_Sherry_Unit_Kill_2_Voice			\Default Work Unit\Manosaba_Sherry_Unit_Kill_2_Voice	
 	3380146170	Manosaba_Hiro_Trial_4_Start_Voice			\Default Work Unit\Manosaba_Hiro_Trial_4_Start_Voice	
 	3440505445	Manosaba_Sherry_Start_Voice			\Default Work Unit\Manosaba_Sherry_Start_Voice	
-	3683345996	Manosaba_Sherry_Trial_6_End_Voice			\Default Work Unit\Manosaba_Sherry_Trial_6_End_Voice	
+	3470413826	Manosaba_Hanna_Unit_Move_1_Voice			\Default Work Unit\Manosaba_Hanna_Unit_Move_1_Voice	
+	3672381400	Manosaba_Sherry_Trial_1_Start_Voice			\Default Work Unit\Manosaba_Sherry_Trial_1_Start_Voice	
+	3735878263	Manosaba_Sherry_Trial_1_End_Voice			\Default Work Unit\Manosaba_Sherry_Trial_1_End_Voice	
+	3736454189	Manosaba_Hanna_Unit_Move_2_Voice			\Default Work Unit\Manosaba_Hanna_Unit_Move_2_Voice	
 	3878261564	Manosaba_Sherry_Restart_1_Voice			\Default Work Unit\Manosaba_Sherry_Restart_1_Voice	
 	3888035532	Manosaba_Stop_All			\Default Work Unit\Manosaba_Stop_All	
 	3927043513	Manosaba_Hiro_Trial_3_Start_Voice			\Default Work Unit\Manosaba_Hiro_Trial_3_Start_Voice	
+	3978313819	Manosaba_Hanna_Trial_3_Start_Voice			\Default Work Unit\Manosaba_Hanna_Trial_3_Start_Voice	
+	4008065391	Manosaba_Hanna_Trial_4_End_Voice			\Default Work Unit\Manosaba_Hanna_Trial_4_End_Voice	
+	4008678081	Manosaba_Sherry_Trial_4_Start_Voice			\Default Work Unit\Manosaba_Sherry_Trial_4_Start_Voice	
 	4056065946	Manosaba_Sherry_Find_Something_6_Voice			\Default Work Unit\Manosaba_Sherry_Find_Something_6_Voice	
-	4158529782	Manosaba_Sherry_Trial_7_Start_Voice			\Default Work Unit\Manosaba_Sherry_Trial_7_Start_Voice	
-	4160988570	Manosaba_Sherry_Trail_8_End_Voice			\Default Work Unit\Manosaba_Sherry_Trail_8_End_Voice	
+	4082419257	Manosaba_Hanna_Restart_1_Voice			\Default Work Unit\Manosaba_Hanna_Restart_1_Voice	
 	4265240762	Manosaba_Unit_Kill_Voice			\Default Work Unit\Manosaba_Unit_Kill_Voice	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -54,16 +70,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	184118500	Declered_War_BGM_adjust	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Declered_War_BGM_adjust_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Declered_War_BGM_adjust		2595972
 	188128011	Hiro_Kaiho_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Kaiho_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Kaiho_Voice		1224512
 	188232012	Sherry_Unit_Kill_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Unit_Kill_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Unit_Kill_2_Voice		797504
+	253761480	Hanna_Trial_2_Start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Trial_2_Start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Trial_2_Start_Voice		2056256
 	278580908	Sherry_Build_3_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Build_3_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Build_3_Voice		278848
 	280632084	Hiro_Tadashiku_Nai_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Tadashiku_Nai_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Tadashiku_Nai_Voice		332096
 	290814794	Hiro_Modoru_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Modoru_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Modoru_2_Voice		1547840
 	291842464	Hiro_Trial_4_end_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_4_end_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_4_end_Voice		1140024
 	293675169	Sherry_Competition_7_Start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Competition_7_Start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Competition_7_Start_Voice		1536064
 	311496353	Hiro_Trail_3_end_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trail_3_end_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trail_3_end_2_Voice		1554232
+	324995878	Hanna_Move_1_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Move_1_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Move_1_Voice		855872
 	331048141	Hiro_Trail_1_end_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trail_1_end_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trail_1_end_Voice		2920416
 	346027702	Sherry_Start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Start_Voice		2103104
+	376642386	Hanna_Trial_3_Start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Trial_3_Start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Trial_3_Start_Voice		1085760
 	387927465	Bgm_036_001_Loop_main_page_bgm	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Bgm_036_001_Loop_main_page_bgm_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bgm_036_001_Loop_main_page_bgm		44106560
 	420608300	Sherry_Restart_3_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Restart_3_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Restart_3_Voice		994624
+	433282337	Hanna_Restart_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Restart_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Restart_2_Voice		3178408
 	445783535	Hiro_Trial_2_start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_2_start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_2_start_Voice		2337580
 	454235348	Sherry_Find_Something_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Find_Something_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Find_Something_2_Voice		894272
 	477938688	Sherry_Competition_7_End_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Competition_7_End_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Competition_7_End_Voice		509760
@@ -71,11 +91,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	536234443	Warden_Introduction_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Warden_Introduction_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Warden_Introduction_Voice		2437592
 	538827994	Sherry_Find_Something_4_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Find_Something_4_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Find_Something_4_Voice		484588
 	551819718	Hiro_Trial_3_start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_3_start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_3_start_Voice		1023288
+	587942623	Hiro_Self_Introduction_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Self_Introduction_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Self_Introduction_Voice		728896
 	599392929	Be_Declered_War_BGM_adjust2	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Be_Declered_War_BGM_adjust2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Be_Declered_War_BGM_adjust2		3979748
+	624482292	Hanna_Trial_4_Start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Trial_4_Start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Trial_4_Start_Voice		1737792
 	638117714	Sherry_Competition_9_Start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Competition_9_Start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Competition_9_Start_Voice		1544504
+	652801978	Hanna_Trial_1_Start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Trial_1_Start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Trial_1_Start_Voice		1774624
+	652849377	Hanna_Trial_4_End_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Trial_4_End_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Trial_4_End_Voice		2073152
 	658336522	Hiro_Trial_4_start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_4_start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_4_start_Voice		2823232
+	684055457	Hanna_Trial_3_End_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Trial_3_End_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Trial_3_End_Voice		3071040
 	717508791	Sherry_Competition_6_Start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Competition_6_Start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Competition_6_Start_Voice		996160
 	717845867	Sherry_Find_Something_3_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Find_Something_3_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Find_Something_3_Voice		615232
+	730477354	Hanna_Restart_3_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Restart_3_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Restart_3_Voice		1485632
+	758087992	Hanna_Move_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Move_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Move_2_Voice		809792
 	777815009	Hiro_Start_Game_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Start_Game_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Start_Game_Voice		1601304
 	826023163	Sherry_Restart_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Restart_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Restart_2_Voice		1796672
 	827058956	Sherry_Build_1_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Build_1_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Build_1_Voice		334656
@@ -83,9 +110,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	880945138	Hiro_Pen_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Pen_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Pen_Voice		1896768
 	886769569	Sherry_Find_Something_6_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Find_Something_6_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Find_Something_6_Voice		1000768
 	887554806	Sherry_Build_2_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Build_2_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Build_2_Voice		403876
+	894841157	Hanna_Trial_1_End_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Trial_1_End_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Trial_1_End_Voice		1096000
+	924751542	Hanna_Trial_2_End_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Trial_2_End_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Trial_2_End_Voice		2265152
 	936067898	Sherry_Find_Something_5_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Find_Something_5_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Find_Something_5_Voice		731968
 	941854266	Hiro_Trial_2_end_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Trial_2_end_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Trial_2_end_Voice		1859580
 	949897698	Sherry_Competition_9_End_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Competition_9_End_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Competition_9_End_Voice		1086508
 	987788616	Sherry_Competition_8_End_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Sherry_Competition_8_End_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sherry_Competition_8_End_Voice		854848
+	989556298	Manosaba_Choice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Manosaba_Choice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Manosaba_Choice		451392
 	1015463896	Hiro_Modoru_1_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hiro_Modoru_1_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hiro_Modoru_1_Voice		1739072
+	1041302897	Hanna_Start_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Start_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Start_Voice		2247744
+	1049772951	Hanna_Restart_1_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Restart_1_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Restart_1_Voice		1018688
+	1055085870	Hanna_Move_3_Voice	C:\Users\Rin\Documents\WwiseProjects\Manosaba\.cache\Windows\SFX\Hanna_Move_3_Voice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hanna_Move_3_Voice		1370000
 

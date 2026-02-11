@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="ManosabaTonoHannaUITexture"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MANOSABA_TONO_HANNA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_TACHIBANA_HANNA_256"/>
+			<m_ObjectName text="ICON_MANOSABA_TACHIBANA_HANNA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_TACHIBANA_HANNA_32"/>
+			<m_ObjectName text="ICON_MANOSABA_TACHIBANA_HANNA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_TACHIBANA_HANNA_45"/>
+			<m_ObjectName text="ICON_MANOSABA_TACHIBANA_HANNA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_TACHIBANA_HANNA_48"/>
+			<m_ObjectName text="ICON_MANOSABA_TACHIBANA_HANNA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_TACHIBANA_HANNA_50"/>
+			<m_ObjectName text="ICON_MANOSABA_TACHIBANA_HANNA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_TACHIBANA_HANNA_55"/>
+			<m_ObjectName text="ICON_MANOSABA_TACHIBANA_HANNA_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_TACHIBANA_HANNA_64"/>
+			<m_ObjectName text="ICON_MANOSABA_TACHIBANA_HANNA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_TACHIBANA_HANNA_80"/>
+			<m_ObjectName text="ICON_MANOSABA_TACHIBANA_HANNA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANOSABA_TONO_HANNA_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MANOSABA_TONO_HANNA_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANOSABA_TONO_HANNA_PORTRAIT"/>
+			<m_ObjectName text="LEADER_MANOSABA_TONO_HANNA_PORTRAIT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANOSABA_TONO_HANNA_BACKGROUND"/>
+			<m_ObjectName text="LEADER_MANOSABA_TONO_HANNA_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANOSABA_TONO_HANNA_BACKGROUND_LOAD"/>
+			<m_ObjectName text="LEADER_MANOSABA_TONO_HANNA_BACKGROUND_LOAD"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

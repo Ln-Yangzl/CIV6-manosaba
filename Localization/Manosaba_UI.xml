@@ -29,6 +29,24 @@
 		<Row Tag="LOC_WITCH_MANAGER_OPTION_COST_INSUFFICIENT" Language="zh_Hans_CN">
 			<Text>(信仰不足)</Text>
 		</Row>
+		<Row Tag="LOC_WITCH_HIRO_START_OPTION_1" Language="zh_Hans_CN">
+			<Text>魔女化进度0%开局</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_HIRO_START_OPTION_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初次游玩推荐</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_HIRO_START_OPTION_2" Language="zh_Hans_CN">
+			<Text>魔女化进度30%开局</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_HIRO_START_OPTION_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>有一定加成和难度</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_HIRO_START_OPTION_3" Language="zh_Hans_CN">
+			<Text>魔女化进度60%开局</Text>
+		</Row>
+		<Row Tag="LOC_WITCH_HIRO_START_OPTION_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>有较高加成和难度</Text>
+		</Row>
 	</LocalizedText>
 
 </GameData>

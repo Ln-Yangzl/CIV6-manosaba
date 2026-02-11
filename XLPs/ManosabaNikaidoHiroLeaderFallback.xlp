@@ -13,6 +13,10 @@
 			<m_EntryID text="LEADER_FALLBACK_MANOSABA_NIKAIDO_HIRO"/>
 			<m_ObjectName text="LEADER_FALLBACK_MANOSABA_NIKAIDO_HIRO"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_FALLBACK_MANOSABA_TONO_HANNA"/>
+			<m_ObjectName text="LEADER_FALLBACK_MANOSABA_TONO_HANNA"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

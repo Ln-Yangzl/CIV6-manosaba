@@ -5,7 +5,7 @@
     <Name>魔法少女的魔女审判 领袖包</Name>
     <Guid>fb8b0a6c-ee5b-405e-b784-e43748f930d4</Guid>
     <ProjectGuid>b2678be1-0c94-4236-80d2-43bade8bb065</ProjectGuid>
-    <ModVersion>3</ModVersion>
+    <ModVersion>4</ModVersion>
     <Teaser>This is a mod of Manosaba.</Teaser>
     <Description>This is a mod of Manosaba.</Description>
     <Authors>Rin</Authors>
@@ -21,8 +21,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Manosaba</AssemblyName>
     <RootNamespace>Manosaba</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="ManosabaPreData"><File>GameData/FrontEnd/Manosaba_Nikaido_Hiro_Config.xml</File><File>GameData/FrontEnd/Manosaba_Tachibana_Sherry_Config.xml</File></UpdateDatabase><UpdateText id="ManosabaPreText"><File>Localization/Manosaba_FrontEnd.xml</File></UpdateText><UpdateColors id="ManosabaPreColor"><File>GameData/FrontEnd/Manosaba_LeaderColors.xml</File></UpdateColors><UpdateIcons id="ManosabaPreIcons"><File>Icons/Manosaba_Nikaido_Hiro_Leader_Icons.xml</File><File>Icons/Manosaba_Tachibana_Sherry_Leader_Icons.xml</File><File>Icons/Manosaba_Common_Icons.xml</File></UpdateIcons><UpdateArt id="ManosabaPreArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="ManosabaInGameData"><Criteria>LeaderCriteria</Criteria><File>GameData/InGame/Manosaba_Civilization.xml</File><File>GameData/InGame/Manosaba_Building.xml</File><File>GameData/InGame/NikaidoHiro/Manosaba_Nikaido_Hiro_Leader.xml</File><File>Localization/Manosaba_FrontEnd.xml</File><File>GameData/InGame/Manosaba_GreateWork.xml</File><File>GameData/InGame/Manosaba_GreatePeople.xml</File><File>GameData/InGame/Manosaba_District.xml</File><File>GameData/InGame/Manosaba_Modifier.sql</File><File>GameData/InGame/Manosaba_Unit.xml</File><File>GameData/InGame/Manosaba_Emergency.sql</File><File>GameData/InGame/Manosaba_Project.xml</File><File>GameData/InGame/TachibanaSherry/Manosaba_Tachibana_Serry_Leader.xml</File></UpdateDatabase><UpdateText id="ManosabaInGameText"><File>Localization/Manosaba_FrontEnd.xml</File><File>Localization/Manosaba_InGame.xml</File><File>Localization/Manosaba_Nikaido_Hiro.xml</File><File>Localization/Manosaba_Tachibana_Sherry.xml</File><File>Localization/Manosaba_UI.xml</File></UpdateText><UpdateColors id="ManosabaInGameColors"><Criteria>LeaderCriteria</Criteria><File>GameData/FrontEnd/Manosaba_LeaderColors.xml</File></UpdateColors><UpdateIcons id="ManosabaInGameIcons"><File>Icons/Manosaba_Nikaido_Hiro_Leader_Icons.xml</File><File>Icons/Manosaba_Evidence_Icons.xml</File><File>Icons/Manosaba_Tachibana_Sherry_Leader_Icons.xml</File><File>Icons/Manosaba_Common_Icons.xml</File></UpdateIcons><UpdateArt id="ManosabaInGameArt"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="ManosabaInGameLua"><File>Lua/InGame/Manosaba_Civilization_InGame.lua</File><File>Lua/InGame/Manosaba_Leader_NikaidoHiro_InGame.lua</File><File>Lua/InGame/Manosaba_Evidence_Generator.lua</File><File>Lua/InGame/Manosaba_Witch_Factor_InGame.lua</File></AddGameplayScripts><UpdateAudio id="ManosabaInGameAudio"><File>Platforms/Windows/Audio/Manosaba_Sound.bnk</File><File>Platforms/Windows/Audio/ManosabaBanks.ini</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File></UpdateAudio><AddUserInterfaces id="ManosabaInGameInterface"><Properties><Context>InGame</Context></Properties><File>Platforms/Windows/Audio/Manosaba_Audio.xml</File><File>Lua/UI/Manosaba_Leader_NikaidoHiro_UI.xml</File><File>Lua/UI/Manosaba_Witch_Config_UI.xml</File></AddUserInterfaces><ImportFiles id="ManosabaInGameFiles"><File>Platforms/Windows/Audio/ManosabaBanks.ini</File><File>Platforms/Windows/Audio/Manosaba_Sound.bnk</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File><File>Platforms/Windows/Audio/Manosaba_Audio.lua</File><File>Platforms/Windows/Audio/Manosaba_Audio.xml</File><File>Lua/InGame/Manosaba_Civilization_InGame.lua</File><File>Lua/UI/Manosaba_Leader_NikaidoHiro_UI.lua</File><File>Lua/InGame/Manosaba_Witch_Factor_InGame.lua</File><File>Lua/UI/Manosaba_Witch_Config_UI.lua</File></ImportFiles><ReplaceUIScript id="ManosabaReplaceUI"><Properties><LoadOrder>1000</LoadOrder><LuaContext>TopPanel</LuaContext><LuaReplace>TopPanel/Manosaba_Top_Panel_Extension.lua</LuaReplace></Properties></ReplaceUIScript><ImportFiles id="ManosabaReplaceUIFiles"><Properties><LoadOrder>1000</LoadOrder></Properties><File>TopPanel/Manosaba_Top_Panel_Extension.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="ManosabaPreData"><File>GameData/FrontEnd/Manosaba_Nikaido_Hiro_Config.xml</File><File>GameData/FrontEnd/Manosaba_Tachibana_Sherry_Config.xml</File><File>GameData/FrontEnd/Manosaba_Tono_Hanna_Config.xml</File></UpdateDatabase><UpdateText id="ManosabaPreText"><File>Localization/Manosaba_FrontEnd.xml</File></UpdateText><UpdateColors id="ManosabaPreColor"><File>GameData/FrontEnd/Manosaba_LeaderColors.xml</File></UpdateColors><UpdateIcons id="ManosabaPreIcons"><File>Icons/Manosaba_Nikaido_Hiro_Leader_Icons.xml</File><File>Icons/Manosaba_Tachibana_Sherry_Leader_Icons.xml</File><File>Icons/Manosaba_Common_Icons.xml</File><File>Icons/Manosaba_Tono_Hanna_Leader_Icons.xml</File></UpdateIcons><UpdateArt id="ManosabaPreArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="ManosabaInGameData"><Criteria>LeaderCriteria</Criteria><File>GameData/InGame/Manosaba_Civilization.xml</File><File>GameData/InGame/Manosaba_Building.xml</File><File>GameData/InGame/NikaidoHiro/Manosaba_Nikaido_Hiro_Leader.xml</File><File>Localization/Manosaba_FrontEnd.xml</File><File>GameData/InGame/Manosaba_GreateWork.xml</File><File>GameData/InGame/Manosaba_GreatePeople.xml</File><File>GameData/InGame/Manosaba_District.xml</File><File>GameData/InGame/Manosaba_Modifier.sql</File><File>GameData/InGame/Manosaba_Unit.xml</File><File>GameData/InGame/Manosaba_Emergency.sql</File><File>GameData/InGame/Manosaba_Project.xml</File><File>GameData/InGame/TachibanaSherry/Manosaba_Tachibana_Serry_Leader.xml</File><File>GameData/InGame/TonoHanna/Manosaba_Tono_Hanna_Leader.xml</File></UpdateDatabase><UpdateText id="ManosabaInGameText"><File>Localization/Manosaba_FrontEnd.xml</File><File>Localization/Manosaba_InGame.xml</File><File>Localization/Manosaba_Nikaido_Hiro.xml</File><File>Localization/Manosaba_Tachibana_Sherry.xml</File><File>Localization/Manosaba_UI.xml</File><File>Localization/Manosaba_Tono_Hanna.xml</File></UpdateText><UpdateColors id="ManosabaInGameColors"><Criteria>LeaderCriteria</Criteria><File>GameData/FrontEnd/Manosaba_LeaderColors.xml</File></UpdateColors><UpdateIcons id="ManosabaInGameIcons"><File>Icons/Manosaba_Nikaido_Hiro_Leader_Icons.xml</File><File>Icons/Manosaba_Evidence_Icons.xml</File><File>Icons/Manosaba_Tachibana_Sherry_Leader_Icons.xml</File><File>Icons/Manosaba_Common_Icons.xml</File><File>Icons/Manosaba_Tono_Hanna_Leader_Icons.xml</File></UpdateIcons><UpdateArt id="ManosabaInGameArt"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="ManosabaInGameLua"><File>Lua/InGame/Manosaba_Civilization_InGame.lua</File><File>Lua/InGame/Manosaba_Leader_NikaidoHiro_InGame.lua</File><File>Lua/InGame/Manosaba_Evidence_Generator.lua</File><File>Lua/InGame/Manosaba_Witch_Factor_InGame.lua</File></AddGameplayScripts><UpdateAudio id="ManosabaInGameAudio"><File>Platforms/Windows/Audio/Manosaba_Sound.bnk</File><File>Platforms/Windows/Audio/ManosabaBanks.ini</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File></UpdateAudio><AddUserInterfaces id="ManosabaInGameInterface"><Properties><Context>InGame</Context></Properties><File>Platforms/Windows/Audio/Manosaba_Audio.xml</File><File>Lua/UI/Manosaba_Leader_NikaidoHiro_UI.xml</File><File>Lua/UI/Manosaba_Witch_Config_UI.xml</File></AddUserInterfaces><ImportFiles id="ManosabaInGameFiles"><File>Platforms/Windows/Audio/ManosabaBanks.ini</File><File>Platforms/Windows/Audio/Manosaba_Sound.bnk</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File><File>Platforms/Windows/Audio/Manosaba_Audio.lua</File><File>Platforms/Windows/Audio/Manosaba_Audio.xml</File><File>Lua/InGame/Manosaba_Civilization_InGame.lua</File><File>Lua/UI/Manosaba_Leader_NikaidoHiro_UI.lua</File><File>Lua/InGame/Manosaba_Witch_Factor_InGame.lua</File><File>Lua/UI/Manosaba_Witch_Config_UI.lua</File></ImportFiles><ReplaceUIScript id="ManosabaReplaceUI"><Properties><LoadOrder>1000</LoadOrder><LuaContext>TopPanel</LuaContext><LuaReplace>TopPanel/Manosaba_Top_Panel_Extension.lua</LuaReplace></Properties></ReplaceUIScript><ImportFiles id="ManosabaReplaceUIFiles"><Properties><LoadOrder>1000</LoadOrder></Properties><File>TopPanel/Manosaba_Top_Panel_Extension.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:StandardPlayers::LEADER_MANOSABA_NIKAIDO_HIRO,Players:Expansion1_Players::LEADER_MANOSABA_NIKAIDO_HIRO,Players:Expansion2_Players::LEADER_MANOSABA_NIKAIDO_HIRO</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_MANOSABA_NIKAIDO_HIRO</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_MANOSABA_NIKAIDO_HIRO</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -36,6 +36,7 @@
     <Folder Include="GameData" />
     <Folder Include="GameData\FrontEnd" />
     <Folder Include="GameData\InGame" />
+    <Folder Include="GameData\InGame\TonoHanna" />
     <Folder Include="GameData\InGame\TachibanaSherry" />
     <Folder Include="GameData\InGame\NikaidoHiro" />
     <Folder Include="Localization" />
@@ -62,6 +63,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="GameData\FrontEnd\Manosaba_Tachibana_Sherry_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameData\FrontEnd\Manosaba_Tono_Hanna_Config.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="GameData\InGame\Manosaba_Building.xml">
@@ -97,6 +101,9 @@
     <Content Include="GameData\InGame\TachibanaSherry\Manosaba_Tachibana_Serry_Leader.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="GameData\InGame\TonoHanna\Manosaba_Tono_Hanna_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Icons\Manosaba_Common_Icons.xml">
       <SubType>Content</SubType>
     </Content>
@@ -109,6 +116,9 @@
     <Content Include="Icons\Manosaba_Tachibana_Sherry_Leader_Icons.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Icons\Manosaba_Tono_Hanna_Leader_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Localization\Manosaba_FrontEnd.xml">
       <SubType>Content</SubType>
     </Content>
@@ -119,6 +129,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localization\Manosaba_Tachibana_Sherry.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Manosaba_Tono_Hanna.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localization\Manosaba_UI.xml">

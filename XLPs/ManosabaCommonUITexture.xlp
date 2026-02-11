@@ -38,6 +38,10 @@
 			<m_ObjectName text="IMG_MANOSABA_TEXT_BOX"/>
 		</Element>
 		<Element>
+			<m_EntryID text="IMG_MANOSABA_HANNA_CONFIG"/>
+			<m_ObjectName text="IMG_MANOSABA_HANNA_CONFIG"/>
+		</Element>
+		<Element>
 			<m_EntryID text="IMG_MANOSABA_SHERRY_CONFIG"/>
 			<m_ObjectName text="IMG_MANOSABA_SHERRY_CONFIG"/>
 		</Element>

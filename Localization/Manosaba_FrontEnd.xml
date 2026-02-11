@@ -65,7 +65,7 @@
 
 		<!-- 领袖技能说明 来自Config-->
 		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_PERJURY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建立首都时获得证物「万年笔」，提供+4[ICON_Faith]信仰，+2[ICON_Tourism]旅游业绩。可在魔女审判中使用特殊项目「伪证」，获得较多分数。</Text>
+			<Text>开局时可选择一种魔女化进度，建立首都时获得证物「万年笔」。可在魔女审判中使用特殊项目「伪证」，获得较多分数。</Text>
 		</Row>
 
 		<!-- 领袖技能名称 来自Config-->
@@ -86,6 +86,21 @@
 		<!-- 领袖技能名称 来自Config-->
 		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_STRENGTH_NAME" Language="zh_Hans_CN">
 			<Text>自称名侦探的少女</Text>
+		</Row>
+
+		<!-- 领袖名称 来自Config-->
+		<Row Tag="LOC_LEADER_MANOSABA_TONO_HANNA_NAME" Language="zh_Hans_CN">
+			<Text>远野汉娜</Text>
+		</Row>
+
+		<!-- 领袖技能说明 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_INGENUITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>平民单位无视地貌和地形的[ICON_Movement]移动力惩罚。建造者获得1个额外次数。</Text>
+		</Row>
+
+		<!-- 领袖技能名称 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_INGENUITY_NAME" Language="zh_Hans_CN">
+			<Text>心灵手巧的大小姐</Text>
 		</Row>
 		
 	</LocalizedText>

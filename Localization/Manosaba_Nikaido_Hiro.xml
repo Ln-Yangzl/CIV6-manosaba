@@ -50,6 +50,18 @@
 				繊細な面も持ち合わせており、気の置けない友達には、特別な情を抱く。
 			</Text>
 		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MANOSABA_NIKAIDO_HIRO_ANY" Language="zh_Hans_CN">
+			<Text>我是二阶堂希罗。今后请多关照。</Text>
+		</Row>
+
+		<!--<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MANOSABA_NIKAIDO_HIRO_ANY" Language="zh_Hans_CN">
+			<Text>我是二阶堂希罗。今后请多关照。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MANOSABA_NIKAIDO_HIRO_ANY" Language="zh_Hans_CN">
+			<Text>我是二阶堂希罗。今后请多关照。</Text>
+		</Row>-->
 		
 		
 		

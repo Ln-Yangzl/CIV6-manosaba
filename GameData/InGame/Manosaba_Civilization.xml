@@ -22,6 +22,7 @@
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_MANOSABA" LeaderType="LEADER_MANOSABA_NIKAIDO_HIRO" CapitalName="LOC_CIVLIZATION_MANOSABA_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_MANOSABA" LeaderType="LEADER_MANOSABA_TACHIBANA_SHERRY" CapitalName="LOC_CIVLIZATION_MANOSABA_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_MANOSABA" LeaderType="LEADER_MANOSABA_TONO_HANNA" CapitalName="LOC_CIVLIZATION_MANOSABA_CITY_1" />
 	</CivilizationLeaders>
 
 	<!-- Cities -->

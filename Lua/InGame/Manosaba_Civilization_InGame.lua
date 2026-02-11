@@ -123,6 +123,7 @@ end
 function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startingTurn:number)
 	local turn = Game.GetCurrentGameTurn()
 	local currentCompetitionType = Game:GetProperty(COMPETITION_TYPE_KEY)
+	local isRecovery = (startingTurn == nil)  -- Recovery calls pass nil parameters
 	print("competition start, emergencyID:"..emergencyID)
 	if m_ManosabaCompetition1 and emergencyID == m_ManosabaCompetition1.Index then
 		-- start of this competition
@@ -131,12 +132,18 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints)
 			Events.CityProjectCompleted.Add(OnCompetition1ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition1.EmergencyType)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition1.EmergencyType, true)
+			end
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition1 end")
 			Events.TurnEnd.Remove(EmergencyAddAiRandomPoints)
 			Events.CityProjectCompleted.Remove(OnCompetition1ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition1.EmergencyType, false)
+			end
 		end
 	end
 	if m_ManosabaCompetition6 and emergencyID == m_ManosabaCompetition6.Index then
@@ -146,12 +153,18 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints6)
 			Events.CityProjectCompleted.Add(OnCompetition6ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition6.EmergencyType)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition6.EmergencyType, true)
+			end
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition6 end")
 			Events.TurnEnd.Remove(EmergencyAddAiRandomPoints6)
 			Events.CityProjectCompleted.Remove(OnCompetition6ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition6.EmergencyType, false)
+			end
 		end
 	end
 	if m_ManosabaCompetition7 and emergencyID == m_ManosabaCompetition7.Index then
@@ -161,12 +174,18 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints7)
 			Events.CityProjectCompleted.Add(OnCompetition7ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition7.EmergencyType)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition7.EmergencyType, true)
+			end
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition7 end")
 			Events.TurnEnd.Remove(EmergencyAddAiRandomPoints7)
 			Events.CityProjectCompleted.Remove(OnCompetition7ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition7.EmergencyType, false)
+			end
 		end
 	end
 	if m_ManosabaCompetition8 and emergencyID == m_ManosabaCompetition8.Index then
@@ -176,6 +195,9 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints8)
 			Events.CityProjectCompleted.Add(OnCompetition8ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition8.EmergencyType)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition8.EmergencyType, true)
+			end
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition8 end")
@@ -185,6 +207,9 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			print('maxPointPlayer:'..maxPointPlayer)
 			OnManosabaBuildingProduction(maxPointPlayer)
 			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition8.EmergencyType, false)
+			end
 		end
 	end
 	if m_ManosabaCompetition9 and emergencyID == m_ManosabaCompetition9.Index then
@@ -194,12 +219,18 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints9)
 			Events.CityProjectCompleted.Add(OnCompetition9ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition9.EmergencyType)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition9.EmergencyType, true)
+			end
 		else
 		-- end of this competition
 			print("competition m_ManosabaCompetition9 end")
 			Events.TurnEnd.Remove(EmergencyAddAiRandomPoints9)
 			Events.CityProjectCompleted.Remove(OnCompetition9ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
+			if not isRecovery and ExposedMembers.playCompetitionVoice then
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition9.EmergencyType, false)
+			end
 		end
 	end
 end
@@ -221,13 +252,7 @@ function OnManosabaBuildingProduction(playerId)
     local player = Players[playerId]
     if not player then return end
 	print("OnManosabaBuildingProduction start")
-    --if activeBuildingCompleteTurn ~= Game.GetCurrentGameTurn() then
-        --return
-    --end
 
-    -- 后续逻辑保持不变...
-    --local city = player:GetCities():FindID(cityId)
-    --if not city then return end
 	for i, city in player:GetCities():Members() do
 		local buildQueue = city:GetBuildQueue()
 		if not buildQueue then return end
@@ -235,11 +260,10 @@ function OnManosabaBuildingProduction(playerId)
 		local currentProduction = buildQueue:CurrentlyBuilding()
 		if not currentProduction then return end
 
-		-- 检查是否为建筑或区域
+
 		local buildingInfo = GameInfo.Buildings[currentProduction]
 		local districtInfo = GameInfo.Districts[currentProduction]
 
-		-- 排除奇观
 		if buildingInfo and buildingInfo.IsWonder then
 			return
 		end
@@ -248,15 +272,8 @@ function OnManosabaBuildingProduction(playerId)
 			return
 		end
 
-		-- 立即完成建造
 		buildQueue:FinishProgress()
 
-		---- 添加通知和音效
-		--local itemName = buildingInfo and Locale.Lookup(buildingInfo.Name) or
-						 --districtInfo and Locale.Lookup(districtInfo.Name) or "未知项目"
---
-		--local message = Locale.Lookup("立即完成{1}建造！", itemName)
-		--Game.AddWorldViewText(playerId, message, city:GetX(), city:GetY())
 		print("INFO: MANOSABA construct:", currentProduction)
 	end
 

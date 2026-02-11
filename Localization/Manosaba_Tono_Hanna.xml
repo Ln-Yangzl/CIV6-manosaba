@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Tono_Hanna -->
+<!-- Author: Rin -->
+<!-- DateCreated: 2/6/2026 10:16:52 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_MANOSABA_TONO_HANNA_QOUTE" Language="zh_Hans_CN">
+			<Text>……呵，我是远野汉娜。往后请多多指照……往后请多多关教？</Text>
+		</Row>
+
+		<Row Tag="LOC_ERA_MANOSABA_TONO_HANNA_TEXT" Language="zh_Hans_CN">
+			<Text>
+				[NEWLINE]「無様ですわね~! もう諦めた方がよろしいんじゃなくって!?」
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANOSABA_TONO_HANNA" Language="zh_Hans_CN">
+			<Text>
+				[NEWLINE]一个说着用「~ですわ」之类脱离世俗的大小姐语言的神秘少女。
+				为什么使用大小姐语言的原因不明。
+				身材瘦削矮小，外表让人联想到法国瓷娃娃。
+				座右铭是高贵和居高临下，总想让自己看起来很高贵。
+				自称是名门望族的千金，但言行举止却多不符实。
+				爱慕虚荣的言辞很多，一旦被指出来就会立刻吵架。
+				本性似乎很善良，与关系好的对象在一起时会流露出好的一面。
+			</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_MANOSABA_TONO_HANNA_QOUTE" Language="ja_JP">
+			<Text>正しくない。</Text>
+		</Row>
+
+		<Row Tag="LOC_ERA_MANOSABA_TONO_HANNA_TEXT" Language="ja_JP">
+			<Text>
+				[NEWLINE]「私はあなたが大嫌い。
+				[NEWLINE]        あなたは、存在そのものが間違っている」
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANOSABA_TONO_HANNA" Language="ja_JP">
+			<Text>
+				[NEWLINE]「~ですわ」など、浮世離れしたお嬢様言葉で話す謎の少女。
+				なぜお嬢様言葉で話すのかは不明。
+				痩せ型で背が低く、ビスクドールを思わせる見た目をしている。
+				気高く上から目線がモットーで、常に自分を高貴に見せようとする。
+				名家の令嬢を謡っているが、あまりそうは思えない言動が多い。
+				見栄を張った物言いが多く、指摘されるとすぐにケンカ腰になる。
+				性根は善良らしく、仲の良い相手には人の好さが垣間見えてしまう。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MANOSABA_TONO_HANNA_ANY" Language="zh_Hans_CN">
+			<Text>……呵，我是远野汉娜。往后请多多指照……往后请多多关教？</Text>
+		</Row>
+
+		<!--<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MANOSABA_TONO_HANNA_ANY" Language="zh_Hans_CN">
+			<Text>……呵，我是远野汉娜。往后请多多指照……往后请多多关教？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MANOSABA_TONO_HANNA_ANY" Language="zh_Hans_CN">
+			<Text>……呵，我是远野汉娜。往后请多多指照……往后请多多关教？</Text>
+		</Row>-->
+
+
+
+	</LocalizedText>
+</GameData>

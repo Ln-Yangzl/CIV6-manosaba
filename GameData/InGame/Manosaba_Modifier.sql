@@ -173,3 +173,29 @@ INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, Ow
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
 ('MODIFIER_MANOSABA_FAITH_BUFF', 'Amount', '1'), 
 ('MODIFIER_MANOSABA_FAITH_BUFF', 'YieldType', 'YIELD_FAITH');
+
+-- modify Hanna civilian
+-- civilian ignore terrain
+-- ajust builder charge
+
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES	('TRAIT_LEADER_MANOSABA_INGENUITY',	'TRAIT_HANNA_UNITS_IGNORE_TERRAIN'),
+		('TRAIT_LEADER_MANOSABA_INGENUITY',	'TRAIT_ADJUST_BUILDER_CHARGES');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+VALUES	('TRAIT_HANNA_UNITS_IGNORE_TERRAIN',	'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER',	'HANNA_UNIT_IS_CIVILIAN_REQUIREMENTS');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+VALUES	('TRAIT_HANNA_UNITS_IGNORE_TERRAIN',	'ModifierId',	'MOD_IGNORE_TERRAIN_COST'	);
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType)
+VALUES ('HANNA_UNIT_IS_CIVILIAN_REQUIREMENTS', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId)
+VALUES ('HANNA_UNIT_IS_CIVILIAN_REQUIREMENTS', 'REQUIRES_CIVILIAN_UNIT_HANNA');
+
+INSERT INTO Requirements (RequirementId, RequirementType)
+VALUES ('REQUIRES_CIVILIAN_UNIT_HANNA', 'REQUIREMENT_UNIT_TAG_MATCHES');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value)
+VALUES ('REQUIRES_CIVILIAN_UNIT_HANNA', 'Tag', 'CLASS_LANDCIVILIAN');

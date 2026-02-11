@@ -6,6 +6,7 @@
 GameEvents = ExposedMembers.GameEvents;
 
 local UIplayRecord = 0
+local hannaUnitMoveTurnRecord = 0
 
 Events.LoadGameViewStateDone.Add(function()
 	local leader = getLeaderName()
@@ -20,14 +21,6 @@ Events.LoadScreenClose.Add(function()
 	
 end)
 
-Events.PlayerTurnActivated.Add(function(playerID, bIsFirstTime)
-	local currentTurn = Game.GetCurrentGameTurn();
-	playCompetitionVoice(currentTurn, playerID)
-end)
-
---Events.BuildingAddedToMap.Add(function(iX, iY, buildingID, playerID, misc2, misc3)
-	--playWardenIntroductionVoice(playerID, buildingID)
---end)
 
 GameEvents.BuildingConstructed.Add(function(playerID, cityID, buildingID, plotID, bOriginalConstruction)
 	playWardenIntroductionVoice(playerID, buildingID)
@@ -53,6 +46,45 @@ end)
 Events.UnitCommandStarted.Add(function(playerID, unitID, hCommand, iData1)
 	playSherryUnitAccelerateWondrProductionVoice(playerID, unitID, hCommand, iData1)
 end)
+
+Events.UnitMoved.Add(function(playerID, unitID)
+	playHannaUnitMoveVoice(playerID, unitID)
+end)
+
+Events.DiplomacyMeet.Add(function(player1ID:number, player2ID:number)
+	playManosabaLeaderMeetVoice(player1ID, player2ID)
+end)
+
+function playManosabaLeaderMeetVoice(player1ID:number, player2ID:number)
+	if Game.GetLocalPlayer() ~= player1ID then return; end
+	local playerConfig = PlayerConfigurations[player2ID];
+	local leader = GameInfo.Leaders[playerConfig:GetLeaderTypeID()];
+	if leader.LeaderType == "LEADER_MANOSABA_NIKAIDO_HIRO" then
+		UI.PlaySound("Manosaba_Hiro_Self_Introduction_Voice")
+	end
+	if leader.LeaderType == "LEADER_MANOSABA_TACHIBANA_SHERRY" then
+		UI.PlaySound("Manosaba_Sherry_Start_Voice")
+	end
+	if leader.LeaderType == "LEADER_MANOSABA_TONO_HANNA" then
+		UI.PlaySound("Manosaba_Hanna_Start_Voice")
+	end
+end
+
+function playHannaUnitMoveVoice(playerID, unitID)
+	local leader = getLeaderName()
+	local pPlayer	:table = Players[playerID];
+	local pUnit		:table = pPlayer:GetUnits():FindID(unitID);
+	if pUnit == nil then return; end
+	-- avoid muti play voice
+	if Game.GetCurrentGameTurn() == hannaUnitMoveTurnRecord then return; end
+	hannaUnitMoveTurnRecord = Game.GetCurrentGameTurn()
+	if Game.GetLocalPlayer() == playerID and leader == "LOC_LEADER_MANOSABA_TONO_HANNA_NAME" and GameInfo.Units[pUnit:GetUnitType()].UnitType == "UNIT_BUILDER" then
+		local random = getRandomNum(1, 20)
+		if random <= 3 then
+			UI.PlaySound("Manosaba_Hanna_Unit_Move_"..random.."_Voice")
+		end
+	end
+end
 
 function playSherryUnitAccelerateWondrProductionVoice(playerID, unitID, hCommand)
 	local leader = getLeaderName()
@@ -165,94 +197,55 @@ function playStartVoice()
 			UI.PlaySound("Manosaba_Sherry_Start_Voice")
 		end
 	end
+	if (leader == "LOC_LEADER_MANOSABA_TONO_HANNA_NAME") then
+		local currentTurn = Game.GetCurrentGameTurn();
+		if currentTurn > 1 then
+			if currentTurn < 25 then
+				UI.PlaySound("Manosaba_Hanna_Restart_1_Voice")
+			elseif currentTurn < 75 then
+				UI.PlaySound("Manosaba_Hanna_Restart_2_Voice")
+			else
+				UI.PlaySound("Manosaba_Hanna_Restart_3_Voice")
+			end 
+			
+		else
+			UI.PlaySound("Manosaba_Hanna_Start_Voice")
+		end
+	end
 end
 
-function playCompetitionVoice(turn, playerID)
-	if playerID ~= Game.GetLocalPlayer() then return; end
-	-- Current turn has already played the sound(aviod player turn activate mutiple times)
-	if UIplayRecord == turn then return; end
+function playCompetitionVoice(emergencyType, isStart)
 	local leader = getLeaderName()
-	-- competition 1 start turn
-	if turn == 27 then
-		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
-			UI.PlaySound("Manosaba_Hiro_Trial_1_Start_Voice")
-		end
-		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
-			UI.PlaySound("Manosaba_Sherry_Trial_6_Start_Voice")
-		end
-		UIplayRecord = 27
+	-- Only play if local player is one of the Manosaba leaders
+	if not string.find(leader, "LEADER_MANOSABA") then return end
+	
+	local trialNum = nil
+	local soundSuffix = isStart and "Start" or "End"
+	
+	-- Map emergency type to trial number based on leader
+	if emergencyType == "EMERGENCY_MANOSABA_COMPETITION_1" or emergencyType == "EMERGENCY_MANOSABA_COMPETITION_6" then
+		trialNum = 1
+	elseif emergencyType == "EMERGENCY_MANOSABA_COMPETITION_2" or emergencyType == "EMERGENCY_MANOSABA_COMPETITION_7" then
+		trialNum = 2
+	elseif emergencyType == "EMERGENCY_MANOSABA_COMPETITION_8" then
+		trialNum = 3
+	elseif emergencyType == "EMERGENCY_MANOSABA_COMPETITION_9" then
+		trialNum = 4
 	end
-	-- competition 1 end turn
-	if turn == 37 then
-		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
-			UI.PlaySound("Manosaba_Hiro_Trial_1_End_Voice")
-		end
-		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
-			UI.PlaySound("Manosaba_Sherry_Trial_6_End_Voice")
-		end
-		UIplayRecord = 37
-	end
-	-- competition 2 start turn
-	if turn == 52 then
-		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
-			UI.PlaySound("Manosaba_Hiro_Trial_2_Start_Voice")
-		end
-		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
-			UI.PlaySound("Manosaba_Sherry_Trial_7_Start_Voice")
-		end
-		UIplayRecord = 52
-	end
-	-- competition 2 end turn
-	if turn == 62 then
-		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
-			UI.PlaySound("Manosaba_Hiro_Trial_2_End_Voice")
-		end
-		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
-			UI.PlaySound("Manosaba_Sherry_Trial_7_End_Voice")
-		end
-		UIplayRecord = 62
-	end
-	-- competition 3 start turn
-	if turn == 77 then
-		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
-			UI.PlaySound("Manosaba_Hiro_Trial_3_Start_Voice")
-		end
-		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
-			UI.PlaySound("Manosaba_Sherry_Trial_8_Start_Voice")
-		end
-		UIplayRecord = 77
-	end
-	-- competition 3 end turn
-	if turn == 87 then
-		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
-			UI.PlaySound("Manosaba_Hiro_Trial_3_End_Voice")
-		end
-		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
-			UI.PlaySound("Manosaba_Sherry_Trial_8_End_Voice")
-		end
-		UIplayRecord = 87
-	end
-	-- competition 4 start turn
-	if turn == 102 then
-		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
-			UI.PlaySound("Manosaba_Hiro_Trial_4_Start_Voice")
-		end
-		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
-			UI.PlaySound("Manosaba_Sherry_Trial_9_Start_Voice")
-		end
-		UIplayRecord = 102
-	end
-	-- competition 4 end turn
-	if turn == 112 then
-		if (leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME") then
-			UI.PlaySound("Manosaba_Hiro_Trial_4_End_Voice")
-		end
-		if (leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME") then
-			UI.PlaySound("Manosaba_Sherry_Trial_9_End_Voice")
-		end
-		UIplayRecord = 112
+	
+	if trialNum == nil then return end
+	
+	if leader == "LOC_LEADER_MANOSABA_NIKAIDO_HIRO_NAME" then
+		UI.PlaySound("Manosaba_Hiro_Trial_"..trialNum.."_"..soundSuffix.."_Voice")
+	elseif leader == "LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME" then
+		UI.PlaySound("Manosaba_Sherry_Trial_"..trialNum.."_"..soundSuffix.."_Voice")
+	elseif leader == "LOC_LEADER_MANOSABA_TONO_HANNA_NAME" then
+		UI.PlaySound("Manosaba_Hanna_Trial_"..trialNum.."_"..soundSuffix.."_Voice")
 	end
 end
+
+-- Expose function for use in other lua files
+ExposedMembers.playCompetitionVoice = playCompetitionVoice
 
 function getRandomNum(x, y)
 	math.randomseed(os.time())

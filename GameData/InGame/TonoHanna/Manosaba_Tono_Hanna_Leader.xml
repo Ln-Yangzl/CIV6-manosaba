@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Tono_Hanna_Leader -->
+<!-- Author: Rin -->
+<!-- DateCreated: 2/6/2026 9:36:04 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_MANOSABA_TONO_HANNA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_MANOSABA_INGENUITY" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_MANOSABA_TONO_HANNA" Name="LOC_LEADER_MANOSABA_TONO_HANNA_NAME" InheritFrom="LEADER_DEFAULT"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_MANOSABA_TONO_HANNA" Quote="LOC_LEADER_MANOSABA_TONO_HANNA_QOUTE" QuoteAudio="Manosaba_Hanna_Start_Voice"/>
+	</LeaderQuotes>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_MANOSABA_INGENUITY" Name="LOC_TRAIT_LEADER_MANOSABA_INGENUITY_NAME" Description="LOC_TRAIT_LEADER_MANOSABA_INGENUITY_DESCRIPTION"/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MANOSABA_TONO_HANNA" TraitType="TRAIT_LEADER_MANOSABA_INGENUITY"/>
+		<Row LeaderType="LEADER_MANOSABA_TONO_HANNA" TraitType="TRAIT_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_PRISON_ISLAND"/>
+	</LeaderTraits>
+
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_MANOSABA_TONO_HANNA" ForegroundImage="LEADER_MANOSABA_TONO_HANNA_NEUTRAL" BackgroundImage="LEADER_MANOSABA_TACHIBANA_SHERRY_BACKGROUND_LOAD" PlayDawnOfManAudio="0" EraText="LOC_ERA_MANOSABA_TONO_HANNA_TEXT" LeaderText="LOC_LOADING_INFO_LEADER_MANOSABA_TONO_HANNA"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_MANOSABA_TONO_HANNA" BackgroundImage="LEADER_MANOSABA_TACHIBANA_SHERRY_BACKGROUND"/>
+	</DiplomacyInfo>
+</GameData>

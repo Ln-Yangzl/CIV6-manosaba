@@ -28,6 +28,27 @@
 			</Button>
 		</Container>
 	</Container>
+
+	<Container ID="ManosabaWitchHiroStartConfigModal"  Anchor="R,B" Size="1550,1080" Offset="0,0" ConsumeMouse="1" Hidden="1">
+		<Image Anchor="R,B" Size="700,1080" Texture="IMG_MANOSABA_HIRO_CONFIG"/>
+		<Container Offset="0,0">
+			<Button ID="ManosabaHiroStartConfigOption1" Anchor="L,T" Size="800,250" Offset="0,100">
+				<Image Anchor="C,C" Size="parent,parent" Texture="IMG_MANOSABA_TEXT_BOX"/>
+				<Label String="LOC_WITCH_HIRO_START_OPTION_1" Anchor="C,C" Color="47,35,44,255" Style="FontNormalMedium20" Offset="0,-14"/>
+				<Label String="LOC_WITCH_HIRO_START_OPTION_1_DESCRIPTION" Anchor="C,C" Color="125,93,142" Style="FontNormalMedium14" Offset="0,14"/>
+			</Button>
+			<Button ID="ManosabaHiroStartConfigOption2" Anchor="L,T" Size="800,250" Offset="0,400">
+				<Image Anchor="C,C" Size="parent,parent" Texture="IMG_MANOSABA_TEXT_BOX"/>
+				<Label String="LOC_WITCH_HIRO_START_OPTION_2" Anchor="C,C" Color="47,35,44,255" Style="FontNormalMedium20" Offset="0,-14"/>
+				<Label String="LOC_WITCH_HIRO_START_OPTION_2_DESCRIPTION" Anchor="C,C" Color="125,93,142" Style="FontNormalMedium14" Offset="0,14"/>
+			</Button>
+			<Button ID="ManosabaHiroStartConfigOption3" Anchor="L,T" Size="800,250" Offset="0,700">
+				<Image Anchor="C,C" Size="parent,parent" Texture="IMG_MANOSABA_TEXT_BOX"/>
+				<Label String="LOC_WITCH_HIRO_START_OPTION_3" Anchor="C,C" Color="47,35,44,255" Style="FontNormalMedium20" Offset="0,-14"/>
+				<Label String="LOC_WITCH_HIRO_START_OPTION_3_DESCRIPTION" Anchor="C,C" Color="125,93,142" Style="FontNormalMedium14" Offset="0,14"/>
+			</Button>
+		</Container>
+	</Container>
 	
 
 </Context>
