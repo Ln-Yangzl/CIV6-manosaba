@@ -496,6 +496,7 @@
 				<Element text="ManosabaTachibanaSherryUITexture"/>
 				<Element text="ManosabaCommonUITexture"/>
 				<Element text="ManosabaTonoHannaUITexture"/>
+				<Element text="ManosabaSakurabaEmaUITexture"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

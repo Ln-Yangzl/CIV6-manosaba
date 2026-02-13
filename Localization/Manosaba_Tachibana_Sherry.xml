@@ -25,6 +25,10 @@
 			</Text>
 		</Row>
 
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MANOSABA_TACHIBANA_SHERRY_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>可通过建造建筑、区域、奇观来获取雪莉的好感度。</Text>
+		</Row>
+
 
 		<Row Tag="LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_QOUTE" Language="ja_JP">
 			<Text>正しくない。</Text>

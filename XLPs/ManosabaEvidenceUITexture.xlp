@@ -10,38 +10,6 @@
 	<m_PackageName text="ManosabaEvidenceUITexture"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="ICON_GREATWORK_EVIDENCE_LOCK_256"/>
-			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_LOCK_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_EVIDENCE_LOCK_45"/>
-			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_LOCK_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_EVIDENCE_LOCK_64"/>
-			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_LOCK_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_EVIDENCE_RIBBON_256"/>
-			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_RIBBON_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_EVIDENCE_RIBBON_45"/>
-			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_RIBBON_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_EVIDENCE_RIBBON_64"/>
-			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_RIBBON_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MANOSABA_LOCK"/>
-			<m_ObjectName text="MANOSABA_LOCK"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MANOSABA_RIBBON"/>
-			<m_ObjectName text="MANOSABA_RIBBON"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_GREATWORK_EVIDENCE_ALIBI_256"/>
 			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_ALIBI_256"/>
 		</Element>
@@ -64,6 +32,18 @@
 		<Element>
 			<m_EntryID text="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_64"/>
 			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_KOKO_PHONE_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_LOCK_256"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_LOCK_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_LOCK_45"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_LOCK_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_LOCK_64"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_LOCK_64"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_GREATWORK_EVIDENCE_MERURU_256"/>
@@ -102,6 +82,18 @@
 			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_PAPER_64"/>
 		</Element>
 		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_RIBBON_256"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_RIBBON_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_RIBBON_45"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_RIBBON_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_EVIDENCE_RIBBON_64"/>
+			<m_ObjectName text="ICON_GREATWORK_EVIDENCE_RIBBON_64"/>
+		</Element>
+		<Element>
 			<m_EntryID text="ICON_GREATWORK_MANOSABA_ANAN_256"/>
 			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ANAN_256"/>
 		</Element>
@@ -126,6 +118,66 @@
 			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ANAN_PHONE_64"/>
 		</Element>
 		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_ARISA_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ARISA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_ARISA_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ARISA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_ARISA_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_ARISA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_CHAIR_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_CHAIR_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_CHAIR_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_CHAIR_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_CHAIR_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_CHAIR_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_COFFER_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_COFFER_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_COFFER_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_COFFER_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_COFFER_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_COFFER_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DORU_ARISA256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DORU_ARISA256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DORU_ARISA45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DORU_ARISA45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DORU_ARISA64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DORU_ARISA64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DORU_MERURU_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DORU_MERURU_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DORU_MERURU_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DORU_MERURU_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DORU_MERURU_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DORU_MERURU_64"/>
+		</Element>
+		<Element>
 			<m_EntryID text="ICON_GREATWORK_MANOSABA_DRESS_256"/>
 			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DRESS_256"/>
 		</Element>
@@ -136,6 +188,18 @@
 		<Element>
 			<m_EntryID text="ICON_GREATWORK_MANOSABA_DRESS_64"/>
 			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DRESS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DRUG_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DRUG_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DRUG_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DRUG_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_DRUG_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_DRUG_64"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_GREATWORK_MANOSABA_EMA_256"/>
@@ -150,6 +214,30 @@
 			<m_ObjectName text="ICON_GREATWORK_MANOSABA_EMA_64"/>
 		</Element>
 		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_FILE_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_FILE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_FILE_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_FILE_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_FILE_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_FILE_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_HANNA_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_HANNA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_HANNA_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_HANNA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_HANNA_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_HANNA_64"/>
+		</Element>
+		<Element>
 			<m_EntryID text="ICON_GREATWORK_MANOSABA_KOKO_256"/>
 			<m_ObjectName text="ICON_GREATWORK_MANOSABA_KOKO_256"/>
 		</Element>
@@ -160,6 +248,30 @@
 		<Element>
 			<m_EntryID text="ICON_GREATWORK_MANOSABA_KOKO_64"/>
 			<m_ObjectName text="ICON_GREATWORK_MANOSABA_KOKO_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_NANOKA_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_NANOKA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_NANOKA_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_NANOKA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_NANOKA_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_NANOKA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_NOA_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_NOA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_NOA_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_NOA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_NOA_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_NOA_64"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_GREATWORK_MANOSABA_NOA_ATELIER_256"/>
@@ -186,6 +298,42 @@
 			<m_ObjectName text="ICON_GREATWORK_MANOSABA_REIA_64"/>
 		</Element>
 		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_SKETCHBOOK_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_SKETCHBOOK_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_SKETCHBOOK_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_SKETCHBOOK_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_SKETCHBOOK_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_SKETCHBOOK_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_SMALL_KEY_256"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_SMALL_KEY_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_SMALL_KEY_45"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_SMALL_KEY_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_MANOSABA_SMALL_KEY_64"/>
+			<m_ObjectName text="ICON_GREATWORK_MANOSABA_SMALL_KEY_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_MIRIA_256"/>
+			<m_ObjectName text="ICON_MANOSABA_MIRIA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_MIRIA_45"/>
+			<m_ObjectName text="ICON_MANOSABA_MIRIA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANOSABA_MIRIA_64"/>
+			<m_ObjectName text="ICON_MANOSABA_MIRIA_64"/>
+		</Element>
+		<Element>
 			<m_EntryID text="MANOSABA_ALIBI"/>
 			<m_ObjectName text="MANOSABA_ALIBI"/>
 		</Element>
@@ -198,12 +346,44 @@
 			<m_ObjectName text="MANOSABA_ANAN_PHONE"/>
 		</Element>
 		<Element>
+			<m_EntryID text="MANOSABA_ARISA"/>
+			<m_ObjectName text="MANOSABA_ARISA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_CHAIR"/>
+			<m_ObjectName text="MANOSABA_CHAIR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_COFFER"/>
+			<m_ObjectName text="MANOSABA_COFFER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_DORU_ARISA"/>
+			<m_ObjectName text="MANOSABA_DORU_ARISA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_DORU_MERURU"/>
+			<m_ObjectName text="MANOSABA_DORU_MERURU"/>
+		</Element>
+		<Element>
 			<m_EntryID text="MANOSABA_DRESS"/>
 			<m_ObjectName text="MANOSABA_DRESS"/>
 		</Element>
 		<Element>
+			<m_EntryID text="MANOSABA_DRUG"/>
+			<m_ObjectName text="MANOSABA_DRUG"/>
+		</Element>
+		<Element>
 			<m_EntryID text="MANOSABA_EMA"/>
 			<m_ObjectName text="MANOSABA_EMA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_FILE"/>
+			<m_ObjectName text="MANOSABA_FILE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_HANNA"/>
+			<m_ObjectName text="MANOSABA_HANNA"/>
 		</Element>
 		<Element>
 			<m_EntryID text="MANOSABA_KOKO"/>
@@ -214,12 +394,24 @@
 			<m_ObjectName text="MANOSABA_KOKO_PHONE"/>
 		</Element>
 		<Element>
+			<m_EntryID text="MANOSABA_LOCK"/>
+			<m_ObjectName text="MANOSABA_LOCK"/>
+		</Element>
+		<Element>
 			<m_EntryID text="MANOSABA_MERURU"/>
 			<m_ObjectName text="MANOSABA_MERURU"/>
 		</Element>
 		<Element>
 			<m_EntryID text="MANOSABA_MERURU_PHONE"/>
 			<m_ObjectName text="MANOSABA_MERURU_PHONE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_NANOKA"/>
+			<m_ObjectName text="MANOSABA_NANOKA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_NOA"/>
+			<m_ObjectName text="MANOSABA_NOA"/>
 		</Element>
 		<Element>
 			<m_EntryID text="MANOSABA_NOA_ATELIER"/>
@@ -232,6 +424,22 @@
 		<Element>
 			<m_EntryID text="MANOSABA_REIA"/>
 			<m_ObjectName text="MANOSABA_REIA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_RIBBON"/>
+			<m_ObjectName text="MANOSABA_RIBBON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_SKETCHBOOK"/>
+			<m_ObjectName text="MANOSABA_SKETCHBOOK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_SMALL_KEY"/>
+			<m_ObjectName text="MANOSABA_SMALL_KEY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MANOSABA_MIRIA"/>
+			<m_ObjectName text="MANOSABA_MIRIA"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

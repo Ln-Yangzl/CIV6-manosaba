@@ -69,6 +69,8 @@ function InitConfigModal(leaderType)
 		Controls.ManosabaConfigModalLeaderImage:SetTexture("IMG_MANOSABA_SHERRY_CONFIG")
 	elseif leaderType == "LEADER_MANOSABA_TONO_HANNA" then
 		Controls.ManosabaConfigModalLeaderImage:SetTexture("IMG_MANOSABA_HANNA_CONFIG")
+	elseif leaderType == "LEADER_MANOSABA_SAKURABA_EMA" then
+	Controls.ManosabaConfigModalLeaderImage:SetTexture("IMG_MANOSABA_EMA_CONFIG")
 	end
 
 end
@@ -147,7 +149,10 @@ function Initialize()
 		InitConfigModal(leader.LeaderType)
 	end
 	if leader.LeaderType == "LEADER_MANOSABA_NIKAIDO_HIRO" then
-		InitHiroStartConfigModal()
+		local currentTurn = Game.GetCurrentGameTurn();
+		if currentTurn == 1 then
+			InitHiroStartConfigModal()
+		end
 	end
 end
 

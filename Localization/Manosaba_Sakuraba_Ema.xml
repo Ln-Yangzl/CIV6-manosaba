@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Sakuraba_Ema -->
+<!-- Author: Rin -->
+<!-- DateCreated: 2/13/2026 12:28:23 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_MANOSABA_SAKURABA_EMA_QOUTE" Language="zh_Hans_CN">
+			<Text>魔女并不可怕！只要大家齐心协力就总会有办法的！</Text>
+		</Row>
+
+		<Row Tag="LOC_ERA_MANOSABA_SAKURABA_EMA_TEXT" Language="zh_Hans_CN">
+			<Text>
+				[NEWLINE]「魔女なんて怖くない！みんなで協力すればなんとかなるよ！」
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANOSABA_SAKURABA_EMA" Language="zh_Hans_CN">
+			<Text>
+				[NEWLINE]自称是「僕」，性格讨人喜欢的少女。笨手笨脚经常搞砸事情，总是处于被照顾的一方。害怕寂寞，喜欢他人的温暖。之所以表现得开朗，是因为害怕孤身一人。头脑聪明，能够冷静地观察并判断事物，但因为害怕被讨厌而故意失败。在想要帮助别人时，会展现出令人惊叹的推理能力。拥有永不言弃、不气馁的韧性。
+			</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_MANOSABA_SAKURABA_EMA_QOUTE" Language="ja_JP">
+			<Text>魔女なんて怖くない！みんなで協力すればなんとかなるよ！</Text>
+		</Row>
+
+		<Row Tag="LOC_ERA_MANOSABA_SAKURABA_EMA_TEXT" Language="ja_JP">
+			<Text>
+				[NEWLINE]「魔女なんて怖くない！みんなで協力すればなんとかなるよ！」
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANOSABA_SAKURABA_EMA" Language="ja_JP">
+			<Text>
+				[NEWLINE]一人称が「ボク」の、人懐こい少女。不器用でしくじりが多く、何かとお世話される側。寂しがり屋で人のぬくもりが好き。周囲に明るく振る舞うのは、1人になるのが怖いから。地頭が良く、冷静に物事を見て判断することができるのだが、嫌われるのが怖くてわざと失敗する。誰かを助けたいと思う時は、驚くような推理をみせる。諦めない、めげない我慢強さを持っている。
+			</Text>
+		</Row>
+
+		<!--<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MANOSABA_SAKURABA_EMA_ANY" Language="zh_Hans_CN">
+			<Text>嗨嗨~！我叫橘雪莉。哪里有案件哪里就有我！一切就交给我这位名侦探吧！</Text>
+		</Row>-->
+
+
+
+	</LocalizedText>
+
+</GameData>

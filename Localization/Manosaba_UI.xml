@@ -47,6 +47,14 @@
 		<Row Tag="LOC_WITCH_HIRO_START_OPTION_3_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>有较高加成和难度</Text>
 		</Row>
+
+
+		<Row Tag="LOC_MANOSABA_FRIENDSHIP_HEADER" Language="zh_Hans_CN">
+			<Text>好友列表</Text>
+		</Row>
+		<Row Tag="LOC_MANOSABA_FRIENDSHIP_TOOLTIP" Language="zh_Hans_CN">
+			<Text>可在文明百科查看好感度获取方法</Text>
+		</Row>
 	</LocalizedText>
 
 </GameData>

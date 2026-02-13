@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Sakuraba_Ema_Leader -->
+<!-- Author: Rin -->
+<!-- DateCreated: 2/13/2026 11:10:46 AM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_MANOSABA_SAKURABA_EMA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_MANOSABA_SMALL_GROUP" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_MANOSABA_SAKURABA_EMA" Name="LOC_LEADER_MANOSABA_SAKURABA_EMA_NAME" InheritFrom="LEADER_DEFAULT"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_MANOSABA_SAKURABA_EMA" Quote="LOC_LEADER_MANOSABA_SAKURABA_EMA_QOUTE" QuoteAudio="Manosaba_Ema_Start_Voice"/>
+	</LeaderQuotes>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_MANOSABA_SMALL_GROUP" Name="LOC_TRAIT_LEADER_MANOSABA_SMALL_GROUP_NAME" Description="LOC_TRAIT_LEADER_MANOSABA_SMALL_GROUP_DESCRIPTION"/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MANOSABA_SAKURABA_EMA" TraitType="TRAIT_CIVILIZATION_MANOSABA_NIKAIDO_HIRO_PRISON_ISLAND"/>
+		<Row LeaderType="LEADER_MANOSABA_SAKURABA_EMA" TraitType="TRAIT_LEADER_MANOSABA_SMALL_GROUP"/>
+	</LeaderTraits>
+
+
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_MANOSABA_SAKURABA_EMA" ForegroundImage="LEADER_MANOSABA_SAKURABA_EMA_NEUTRAL" BackgroundImage="LEADER_MANOSABA_SAKURABA_EMA_BACKGROUND_LOAD" PlayDawnOfManAudio="0" EraText="LOC_ERA_MANOSABA_SAKURABA_EMA_TEXT" LeaderText="LOC_LOADING_INFO_LEADER_MANOSABA_SAKURABA_EMA"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_MANOSABA_SAKURABA_EMA" BackgroundImage="LEADER_MANOSABA_SAKURABA_EMA_BACKGROUND"/>
+	</DiplomacyInfo>
+</GameData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manosaba_Friendship_UI -->
+<!-- Author: Rin -->
+<!-- DateCreated: 2/13/2026 1:00:04 PM -->
+<Context Name="ManosabaFriendshipAddon">
+	<Grid ID="ManosabaFriendship" Offset="0,0" Size="296,25"  Texture="Controls_DropdownPanel" Color="143,122,82,200" Anchor="L,T" ConsumeMouseOver="1" Hidden="0" >
+		<Box Offset="0,0" Size="parent-5,default" Color="143,122,82,200">
+			<Image Texture="Controls_GradientSmall" Size="parent,20" Color="0,0,0,255" Anchor="L,T"/>
+			<Container ID="PanelContainer" Offset="0,0" Align="Center" Size="parent,1" >		
+				<Button ID="HeaderTitle" Anchor="C,C" Offset="0,5" ConsumeAllMouse="1" Size="250,23">
+					<Label ID="PanelTitle" Anchor="C,C" Offset="0,7" Align="Center" Size="200,90" WrapWidth="Parent-40" Style="FontFlair16" Color2="143,122,82,255" Color0="106,93,69,230" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" String="{LOC_MANOSABA_FRIENDSHIP_HEADER}" />	<!--LOC_CHEAT_MENU_HEADER	-->		
+				</Button>
+				<Stack ID="FriendshipStackMIN" Anchor="C,T" Offset="0,25" StackGrowth="Down" Hidden="1">
+					<Grid ID="TachibanaSherry" Anchor="L,T" Offset="0,0" Size="300,60" Texture=""  Color="GovBonusDark">
+						<Image Texture="Controls_CircleBacking45" Size="51,51" Anchor="L,C" Offset="10,1"/>
+						<Image ID="Portrait" Anchor="L,C" Size="45,45" Offset="13,1" Texture="ICON_MANOSABA_TACHIBANA_SHERRY_45" />
+						<Label String="LOC_LEADER_MANOSABA_TACHIBANA_SHERRY_NAME" Anchor="L,C" Color="255,255,255,255" Style="FontFlair14" Offset="65,-10"/>
+						<Image Texture="IMG_MANOSABA_PROGRESS_BAR" Offset="65,5" Anchor="L,C" Size="134,10" ToolTip="LOC_MANOSABA_FRIENDSHIP_TOOLTIP">
+							<TextureBar ID="SherryFriendshipBar" Texture="IMG_MANOSABA_PROGRESS_BAR_CONTENT" Offset="1,0" Anchor="C,C" Size="132,8" Speed="1" Direction="Right"/>
+						</Image>
+						<Label ID="SherryFriendshipText" String="100/100" Anchor="L,C" Color="255,255,255,255" Style="FontFlair12" Offset="110,5"/>
+						<Image Texture="IMG_MANOSABA_MAGIC_SHERRY" Offset="50,0" Anchor="R,C" Size="45,45" />
+					</Grid>
+					<Grid ID="TonoHanna" Anchor="L,T" Offset="0,0" Size="300,60" Texture=""  Color="GovBonusDark">
+						<Image Texture="Controls_CircleBacking45" Size="51,51" Anchor="L,C" Offset="10,1"/>
+						<Image ID="Portrait" Anchor="L,C" Size="45,45" Offset="13,1" Texture="ICON_MANOSABA_TACHIBANA_HANNA_45" />
+						<Label String="LOC_LEADER_MANOSABA_TONO_HANNA_NAME" Anchor="L,C" Color="255,255,255,255" Style="FontFlair14" Offset="65,-10"/>
+						<Image Texture="IMG_MANOSABA_PROGRESS_BAR" Offset="65,5" Anchor="L,C" Size="134,10" ToolTip="LOC_MANOSABA_FRIENDSHIP_TOOLTIP">
+							<TextureBar ID="HannaFriendshipBar" Texture="IMG_MANOSABA_PROGRESS_BAR_CONTENT" Offset="1,0" Anchor="C,C" Size="132,8" Speed="1" Direction="Right"/>
+						</Image>
+						<Label ID="HannaFriendshipText" String="50/100" Anchor="L,C" Color="255,255,255,255" Style="FontFlair12" Offset="110,5"/>
+						<Image Texture="IMG_MANOSABA_MAGIC_HANNA" Offset="50,0" Anchor="R,C" Size="45,45" />
+					</Grid>
+				</Stack>
+			</Container>
+		</Box>
+	</Grid>
+</Context>

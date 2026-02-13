@@ -102,6 +102,22 @@
 		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_INGENUITY_NAME" Language="zh_Hans_CN">
 			<Text>心灵手巧的大小姐</Text>
 		</Row>
+
+
+		<!-- 领袖名称 来自Config-->
+		<Row Tag="LOC_LEADER_MANOSABA_SAKURABA_EMA_NAME" Language="zh_Hans_CN">
+			<Text>樱羽艾玛</Text>
+		</Row>
+
+		<!-- 领袖技能说明 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_SMALL_GROUP_NAME" Language="zh_Hans_CN">
+			<Text>最好的小团体</Text>
+		</Row>
+
+		<!-- 领袖技能名称 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_MANOSABA_SMALL_GROUP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与「橘雪莉」「远野汉娜」「冰上梅露露」拥有50的初始好感度。所有角色好感度积累速度增加30%。</Text>
+		</Row>
 		
 	</LocalizedText>
 </GameData>

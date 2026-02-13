@@ -45,6 +45,26 @@
 			<m_EntryID text="IMG_MANOSABA_SHERRY_CONFIG"/>
 			<m_ObjectName text="IMG_MANOSABA_SHERRY_CONFIG"/>
 		</Element>
+		<Element>
+			<m_EntryID text="IMG_MANOSABA_EMA_CONFIG"/>
+			<m_ObjectName text="IMG_MANOSABA_EMA_CONFIG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_MANOSABA_PROGRESS_BAR"/>
+			<m_ObjectName text="IMG_MANOSABA_PROGRESS_BAR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_MANOSABA_PROGRESS_BAR_CONTENT"/>
+			<m_ObjectName text="IMG_MANOSABA_PROGRESS_BAR_CONTENT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_MANOSABA_MAGIC_HANNA"/>
+			<m_ObjectName text="IMG_MANOSABA_MAGIC_HANNA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_MANOSABA_MAGIC_SHERRY"/>
+			<m_ObjectName text="IMG_MANOSABA_MAGIC_SHERRY"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
