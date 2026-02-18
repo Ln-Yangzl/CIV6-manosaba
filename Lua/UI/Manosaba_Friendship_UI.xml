@@ -19,7 +19,7 @@
 							<TextureBar ID="SherryFriendshipBar" Texture="IMG_MANOSABA_PROGRESS_BAR_CONTENT" Offset="1,0" Anchor="C,C" Size="132,8" Speed="1" Direction="Right"/>
 						</Image>
 						<Label ID="SherryFriendshipText" String="100/100" Anchor="L,C" Color="255,255,255,255" Style="FontFlair12" Offset="110,5"/>
-						<Image Texture="IMG_MANOSABA_MAGIC_SHERRY" Offset="50,0" Anchor="R,C" Size="45,45" />
+						<Image ID="SherryMagicImage" Texture="IMG_MANOSABA_MAGIC_SHERRY" Offset="50,0" Anchor="R,C" Size="45,45" />
 					</Grid>
 					<Grid ID="TonoHanna" Anchor="L,T" Offset="0,0" Size="300,60" Texture=""  Color="GovBonusDark">
 						<Image Texture="Controls_CircleBacking45" Size="51,51" Anchor="L,C" Offset="10,1"/>
@@ -29,10 +29,24 @@
 							<TextureBar ID="HannaFriendshipBar" Texture="IMG_MANOSABA_PROGRESS_BAR_CONTENT" Offset="1,0" Anchor="C,C" Size="132,8" Speed="1" Direction="Right"/>
 						</Image>
 						<Label ID="HannaFriendshipText" String="50/100" Anchor="L,C" Color="255,255,255,255" Style="FontFlair12" Offset="110,5"/>
-						<Image Texture="IMG_MANOSABA_MAGIC_HANNA" Offset="50,0" Anchor="R,C" Size="45,45" />
+						<Image ID="HannaMagicImage" Texture="IMG_MANOSABA_MAGIC_HANNA" Offset="50,0" Anchor="R,C" Size="45,45" />
 					</Grid>
 				</Stack>
 			</Container>
 		</Box>
 	</Grid>
+	<Container ID="ManosabaFriendshipModal"  Anchor="R,B" Size="1920,1080" Offset="0,0" ConsumeMouse="1" Hidden="1">
+		<Image ID="ManosabaFriendshipModalPrimaryLeaderImage" Anchor="R,B" Size="700,1080" Texture="IMG_MANOSABA_HIRO_CONFIG"/>
+		<Container Offset="0,0">
+			<Button ID="ManosabaFriendshipOption1" Anchor="R,T" Size="800,250" Offset="500,100">
+				<Image Anchor="C,C" Size="parent,parent" Texture="IMG_MANOSABA_TEXT_BOX"/>
+				<Label ID="ManosabaFriendshipOption1Text" String="LOC_WITCH_MANAGER_OPTION_1" Anchor="C,C" Color="47,35,44,255" Style="FontNormalMedium20" Offset="0,0"/>
+			</Button>
+			<Button ID="ManosabaFriendshipOption2" Anchor="R,T" Size="800,250" Offset="500,400">
+				<Image Anchor="C,C" Size="parent,parent" Texture="IMG_MANOSABA_TEXT_BOX"/>
+				<Label ID="ManosabaFriendshipOption2Text" String="LOC_WITCH_MANAGER_OPTION_2" Anchor="C,C" Color="47,35,44,255" Style="FontNormalMedium20" Offset="0,0"/>
+			</Button>
+		</Container>
+		<Image ID="ManosabaFriendshipModalSecondaryLeaderImage" Anchor="L,B" Size="700,1080" Texture="IMG_MANOSABA_SHERRY_CONFIG"/>
+	</Container>
 </Context>

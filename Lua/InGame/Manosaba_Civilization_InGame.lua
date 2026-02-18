@@ -8,7 +8,7 @@ local GRANTED_EVIDENCE_TABLE_KEY = "GRANTED_EVIDENCE_TABLE"
 local PLAYER_EVIDENCE_USED_KEY = "EVIDENCE_USED_TABLE"
 local COMPETITION_TYPE_KEY = "MANOSABA_COMPETITION_TYPE"
 
-local m_ManosabaCompetition1 = GameInfo.EmergencyAlliances and GameInfo.EmergencyAlliances['EMERGENCY_MANOSABA_COMPETITION_1']
+local m_ManosabaCompetition5 = GameInfo.EmergencyAlliances and GameInfo.EmergencyAlliances['EMERGENCY_MANOSABA_COMPETITION_5']
 local m_ManosabaCompetition6 = GameInfo.EmergencyAlliances and GameInfo.EmergencyAlliances['EMERGENCY_MANOSABA_COMPETITION_6']
 local m_ManosabaCompetition7 = GameInfo.EmergencyAlliances and GameInfo.EmergencyAlliances['EMERGENCY_MANOSABA_COMPETITION_7']
 local m_ManosabaCompetition8 = GameInfo.EmergencyAlliances and GameInfo.EmergencyAlliances['EMERGENCY_MANOSABA_COMPETITION_8']
@@ -31,10 +31,29 @@ local SUBMIT_EVIDENCE_SCOURE = 200
 
 local COMPETITION_VALID_EVIDENCE_TABLE = {
 	EMERGENCY_MANOSABA_COMPETITION_1 = {
-		GREATWORK_MANOSABA_RIBBON = "GREATWORK_MANOSABA_RIBBON"
+		GREATWORK_MANOSABA_RIBBON = "GREATWORK_MANOSABA_RIBBON",
+		GREATWORK_MANOSABA_NOA = "GREATWORK_MANOSABA_NOA",
+		GREATWORK_MANOSABA_SKETCHBOOK = "GREATWORK_MANOSABA_SKETCHBOOK"
 	},
 	EMERGENCY_MANOSABA_COMPETITION_2 = {
-		GREATWORK_MANOSABA_LOCK = "GREATWORK_MANOSABA_LOCK"
+		GREATWORK_MANOSABA_LOCK = "GREATWORK_MANOSABA_LOCK",
+		GREATWORK_MANOSABA_MIRIA = "GREATWORK_MANOSABA_MIRIA",
+		GREATWORK_MANOSABA_SMALL_KEY = "GREATWORK_MANOSABA_SMALL_KEY"
+	},
+	EMERGENCY_MANOSABA_COMPETITION_3 = {
+		GREATWORK_MANOSABA_DORU_ARISA = "GREATWORK_MANOSABA_DORU_ARISA",
+		GREATWORK_MANOSABA_DORU_MERURU = "GREATWORK_MANOSABA_DORU_MERURU",
+		GREATWORK_MANOSABA_HANNA = "GREATWORK_MANOSABA_HANNA"
+	},
+	EMERGENCY_MANOSABA_COMPETITION_4 = {
+		GREATWORK_MANOSABA_ARISA = "GREATWORK_MANOSABA_ARISA",
+		GREATWORK_MANOSABA_CHAIR = "GREATWORK_MANOSABA_CHAIR",
+		GREATWORK_MANOSABA_DRUG = "GREATWORK_MANOSABA_DRUG"
+	},
+	EMERGENCY_MANOSABA_COMPETITION_5 = {
+		GREATWORK_MANOSABA_COFFER = "GREATWORK_MANOSABA_COFFER",
+		GREATWORK_MANOSABA_FILE = "GREATWORK_MANOSABA_FILE",
+		GREATWORK_MANOSABA_NANOKA = "GREATWORK_MANOSABA_NANOKA"
 	},
 	EMERGENCY_MANOSABA_COMPETITION_6 = {
 		GREATWORK_MANOSABA_ALIBI = "GREATWORK_MANOSABA_ALIBI",
@@ -125,24 +144,24 @@ function OnEmergencyAvailable(targetPlayerID:number, emergencyID:number, startin
 	local currentCompetitionType = Game:GetProperty(COMPETITION_TYPE_KEY)
 	local isRecovery = (startingTurn == nil)  -- Recovery calls pass nil parameters
 	print("competition start, emergencyID:"..emergencyID)
-	if m_ManosabaCompetition1 and emergencyID == m_ManosabaCompetition1.Index then
+	if m_ManosabaCompetition5 and emergencyID == m_ManosabaCompetition5.Index then
 		-- start of this competition
-		if currentCompetitionType ~= m_ManosabaCompetition1.EmergencyType then
-			print("competition m_ManosabaCompetition1 start")
+		if currentCompetitionType ~= m_ManosabaCompetition5.EmergencyType then
+			print("competition m_ManosabaCompetition5 start")
 			Events.TurnEnd.Add(EmergencyAddAiRandomPoints)
-			Events.CityProjectCompleted.Add(OnCompetition1ProjectFinish)
-			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition1.EmergencyType)
+			Events.CityProjectCompleted.Add(OnCompetition5ProjectFinish)
+			Game:SetProperty(COMPETITION_TYPE_KEY, m_ManosabaCompetition5.EmergencyType)
 			if not isRecovery and ExposedMembers.playCompetitionVoice then
-				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition1.EmergencyType, true)
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition5.EmergencyType, true)
 			end
 		else
 		-- end of this competition
-			print("competition m_ManosabaCompetition1 end")
+			print("competition m_ManosabaCompetition5 end")
 			Events.TurnEnd.Remove(EmergencyAddAiRandomPoints)
-			Events.CityProjectCompleted.Remove(OnCompetition1ProjectFinish)
+			Events.CityProjectCompleted.Remove(OnCompetition5ProjectFinish)
 			Game:SetProperty(COMPETITION_TYPE_KEY, nil)
 			if not isRecovery and ExposedMembers.playCompetitionVoice then
-				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition1.EmergencyType, false)
+				ExposedMembers.playCompetitionVoice(m_ManosabaCompetition5.EmergencyType, false)
 			end
 		end
 	end
@@ -313,7 +332,7 @@ end
 
 
 
-function OnCompetition1ProjectFinish(playerID, cityID, projectID, buildingIndex, iX, iY, bCancelled)
+function OnCompetition5ProjectFinish(playerID, cityID, projectID, buildingIndex, iX, iY, bCancelled)
 	OnCompetitionProjectFinishInner(playerID, projectID, m_EmergencyGreatPersonClass.Index)
 end
 
@@ -344,7 +363,9 @@ function OnCompetitionProjectFinishInner(playerID, projectID, greatPersonID)
 	end
 	if projectID == m_ProjectTrailSubmitEvidence.Index then
 		print("m_ProjectTrailSubmitEvidence:"..Game:GetProperty(COMPETITION_TYPE_KEY))
-		local validEvidience = COMPETITION_VALID_EVIDENCE_TABLE[Game:GetProperty(COMPETITION_TYPE_KEY)]
+		
+		local currentCompetitionType = Game:GetProperty(COMPETITION_TYPE_KEY)
+		local validEvidience = GetValidEvidence(currentCompetitionType)
 		local evidenceHas = pPlayer:GetProperty(GRANTED_EVIDENCE_TABLE_KEY)
 		local evidenceUsed = pPlayer:GetProperty(PLAYER_EVIDENCE_USED_KEY)
 		if evidenceUsed == nil then
@@ -365,6 +386,32 @@ function OnCompetitionProjectFinishInner(playerID, projectID, greatPersonID)
 	end
 end
 
+
+function GetValidEvidence(currentCompetitionType)
+	local evidenceCompetitionType = GetEvidenceCompetitionType(currentCompetitionType)
+	return COMPETITION_VALID_EVIDENCE_TABLE[evidenceCompetitionType]
+end
+
+function GetEvidenceCompetitionType(currentCompetitionType)
+	-- Get leader type and handle special mapping for chapter 1 LEADER_MANOSABA_SAKURABA_EMA
+	local pPlayerConfig = PlayerConfigurations[Game.GetLocalPlayer()]
+	local sLeaderType = pPlayerConfig:GetLeaderTypeName()
+	local evidenceCompetitionType = currentCompetitionType
+	
+	if sLeaderType == "LEADER_MANOSABA_SAKURABA_EMA" then
+		if currentCompetitionType == "EMERGENCY_MANOSABA_COMPETITION_6" then
+			evidenceCompetitionType = "EMERGENCY_MANOSABA_COMPETITION_1"
+		elseif currentCompetitionType == "EMERGENCY_MANOSABA_COMPETITION_7" then
+			evidenceCompetitionType = "EMERGENCY_MANOSABA_COMPETITION_2"
+		elseif currentCompetitionType == "EMERGENCY_MANOSABA_COMPETITION_8" then
+			evidenceCompetitionType = "EMERGENCY_MANOSABA_COMPETITION_3"
+		elseif currentCompetitionType == "EMERGENCY_MANOSABA_COMPETITION_9" then
+			evidenceCompetitionType = "EMERGENCY_MANOSABA_COMPETITION_4"
+		end
+	end
+	
+	return evidenceCompetitionType
+end
 
 function getRandomNum(x, y)
 	return math.random(x, y)

@@ -3,9 +3,27 @@
 -- DateCreated: 1/18/2026 4:55:32 PM
 --------------------------------------------------------------
 
-local EVIDENCE_LIST = {
-	GREATWORK_MANOSABA_RIBBON = "GREATWORK_MANOSABA_RIBBON", 
+-- Evidence from competitions 1-5 (for LEADER_MANOSABA_SAKURABA_EMA)
+local EVIDENCE_LIST_GROUP1 = {
+	GREATWORK_MANOSABA_RIBBON = "GREATWORK_MANOSABA_RIBBON",
+	GREATWORK_MANOSABA_NOA = "GREATWORK_MANOSABA_NOA",
+	GREATWORK_MANOSABA_SKETCHBOOK = "GREATWORK_MANOSABA_SKETCHBOOK",
 	GREATWORK_MANOSABA_LOCK = "GREATWORK_MANOSABA_LOCK",
+	GREATWORK_MANOSABA_MIRIA = "GREATWORK_MANOSABA_MIRIA",
+	GREATWORK_MANOSABA_SMALL_KEY = "GREATWORK_MANOSABA_SMALL_KEY",
+	GREATWORK_MANOSABA_DORU_ARISA = "GREATWORK_MANOSABA_DORU_ARISA",
+	GREATWORK_MANOSABA_DORU_MERURU = "GREATWORK_MANOSABA_DORU_MERURU",
+	GREATWORK_MANOSABA_HANNA = "GREATWORK_MANOSABA_HANNA",
+	GREATWORK_MANOSABA_ARISA = "GREATWORK_MANOSABA_ARISA",
+	GREATWORK_MANOSABA_CHAIR = "GREATWORK_MANOSABA_CHAIR",
+	GREATWORK_MANOSABA_DRUG = "GREATWORK_MANOSABA_DRUG",
+	GREATWORK_MANOSABA_COFFER = "GREATWORK_MANOSABA_COFFER",
+	GREATWORK_MANOSABA_FILE = "GREATWORK_MANOSABA_FILE",
+	GREATWORK_MANOSABA_NANOKA = "GREATWORK_MANOSABA_NANOKA"
+}
+
+-- Evidence from competitions 6-9 (for other leaders)
+local EVIDENCE_LIST_GROUP2 = {
 	GREATWORK_MANOSABA_ALIBI = "GREATWORK_MANOSABA_ALIBI",
 	GREATWORK_MANOSABA_MERURU_PHONE = "GREATWORK_MANOSABA_MERURU_PHONE",
 	GREATWORK_MANOSABA_MERURU = "GREATWORK_MANOSABA_MERURU",
@@ -33,10 +51,11 @@ Events.LocalPlayerTurnEnd.Add(function()
 end);
 
 function TechOrCivicBoost(playerID)
-	GrantEvidence(playerID)
+	-- This function is kept for compatibility but now uses the updated GrantManosabaLocalPlayerEvidence logic
+	GrantManosabaLocalPlayerEvidence(playerID)
 end
 
-function GrantEvidence(playerID)
+function GrantEvidence(playerID, evidenceList)
 	-- when not player turn, do not grant evidence
 	if localPlayerTurnActivate == false then return; end
 	local pPlayer = Players[playerID];	
@@ -46,7 +65,7 @@ function GrantEvidence(playerID)
 		evidenceHasGrant = {}
 	end
 
-	for k,v in pairs(EVIDENCE_LIST) do
+	for k,v in pairs(evidenceList) do
 		if evidenceHasGrant[k] == nil then
 			table.insert(evidenceCanGrant, v)
 		end
@@ -83,7 +102,15 @@ function GrantManosabaLocalPlayerEvidence(playerID)
 		local randomNum = math.random(1, 3)
 		--local randomNum = 1
 		if randomNum == 1 then
-			GrantEvidence(playerID)
+			-- Grant Group1 evidence for LEADER_MANOSABA_SAKURABA_EMA
+			if sLeaderType == "LEADER_MANOSABA_SAKURABA_EMA" then
+				GrantEvidence(playerID, EVIDENCE_LIST_GROUP1)
+			-- Grant Group2 evidence for other Manosaba leaders
+			elseif sLeaderType == "LEADER_MANOSABA_TACHIBANA_SHERRY" or 
+			       sLeaderType == "LEADER_MANOSABA_TONO_HANNA" or 
+			       sLeaderType == "LEADER_MANOSABA_NIKAIDO_HIRO" then
+				GrantEvidence(playerID, EVIDENCE_LIST_GROUP2)
+			end
 		end
 	end
 

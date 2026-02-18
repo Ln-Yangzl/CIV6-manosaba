@@ -267,6 +267,18 @@
 		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_1_SUMMARY" Language="zh_Hans_CN">
 			<Text>城崎诺亚的尸体被发现了，进行推理找出凶手吧。</Text>
 		</Row>
+		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_2_SUMMARY" Language="zh_Hans_CN">
+			<Text>佐伯米莉亚的尸体被发现了，进行推理找出凶手吧。</Text>
+		</Row>
+		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_3_SUMMARY" Language="zh_Hans_CN">
+			<Text>远野汉娜的尸体被发现了，进行推理找出凶手吧。</Text>
+		</Row>
+		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_4_SUMMARY" Language="zh_Hans_CN">
+			<Text>紫藤亚里沙的尸体被发现了，进行推理找出凶手吧。</Text>
+		</Row>
+		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_5_SUMMARY" Language="zh_Hans_CN">
+			<Text>黑部奈叶香的尸体被发现了，进行推理找出凶手吧。</Text>
+		</Row>
 		<Row Tag="LOC_WORLD_CONGRESS_MANOSABA_COMPETITION_6_SUMMARY" Language="zh_Hans_CN">
 			<Text>冰上梅露露的尸体被发现了，进行推理找出凶手吧。</Text>
 		</Row>
